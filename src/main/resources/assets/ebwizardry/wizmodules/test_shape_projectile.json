@@ -1,0 +1,15 @@
+{
+  "sub_module_id": "test_shape_projectile",
+  "reference_module_id": "test_shape_projectile",
+  "icon": "wizardry:textures/gui/worktable/icons/shape_projectile.png",
+  "item": "minecraft:nether_wart",
+  "mana": {
+    "base": 50
+  },
+  "burnout": {
+    "base": 20
+  },
+  "cooldown": { "base": 30 },
+  "range": { "base": 10, "min": 10, "max": 60 },
+  "speed": { "base": 1, "min": 1, "max": 20 }
+}
