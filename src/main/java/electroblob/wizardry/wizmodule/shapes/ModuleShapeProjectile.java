@@ -49,20 +49,13 @@ public class ModuleShapeProjectile implements IModuleShape {
 		Vec3d origin = spell.getOriginWithFallback();
 		if (origin == null) return false;
 
-		double dist = spellRing.getAttributeValue(AttributeRegistry.RANGE, spell);
-		double speed = spellRing.getAttributeValue(AttributeRegistry.SPEED, spell);
-
 		if (!spellRing.taxCaster(spell, true)) return false;
-		
-		IShapeOverrides overrides = spellRing.getOverrideHandler().getConsumerInterface(IShapeOverrides.class);
-		
-		EntitySpellProjectile proj = new EntitySpellProjectile(world, spellRing, spell, (float) dist, (float) speed, (float) 0.1, !overrides.onRunProjectile(spell, spellRing));
-		proj.setPosition(origin.x, origin.y, origin.z);
-		proj.velocityChanged = true;
 
-		boolean success = world.spawnEntity(proj);
-		if (success)
-			world.playSound(null, new BlockPos(origin), ModSounds.PROJECTILE_LAUNCH, SoundCategory.PLAYERS, 1f, (float) RandUtil.nextDouble(1, 1.5));
+		IShapeOverrides overrides = spellRing.getOverrideHandler().getConsumerInterface(IShapeOverrides.class);
+
+		boolean runResult = overrides.onRunProjectile(spell, spellRing);
+		boolean success = overrides.launchProjectile(spell, spellRing, world, origin, runResult);
+		
 		return success;
 	}
 
@@ -111,11 +104,26 @@ public class ModuleShapeProjectile implements IModuleShape {
 		// Default implementation
 		return false;		
 	}
-
 	
 	@ModuleOverride("shape_projectile_render")
 	public boolean onRenderProjectile(SpellData data, SpellRing shape) {
 		// Default implementation
 		return false;
+	}
+	
+	@ModuleOverride("shape_projectile_launch")
+	public boolean launchProjectile(SpellData data, SpellRing shape, World world, Vec3d origin, boolean runResult) {
+		double dist = shape.getAttributeValue(AttributeRegistry.RANGE, data);
+		double speed = shape.getAttributeValue(AttributeRegistry.SPEED, data);
+		
+		EntitySpellProjectile proj = new EntitySpellProjectile(world, shape, data, (float) dist, (float) speed, (float) 0.1, !runResult);
+		proj.setPosition(origin.x, origin.y, origin.z);
+		proj.velocityChanged = true;
+
+		boolean success = world.spawnEntity(proj);
+		if (success)
+			world.playSound(null, new BlockPos(origin), ModSounds.PROJECTILE_LAUNCH, SoundCategory.PLAYERS, 1f, (float) RandUtil.nextDouble(1, 1.5));
+
+		return success;
 	}
 }
