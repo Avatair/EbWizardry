@@ -22,7 +22,8 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.world.World;
 
 public class FlamingWeapon extends Spell {
-
+	// SHAPE: SELF
+	
 	public FlamingWeapon(){
 		super(Tier.ADVANCED, 35, Element.FIRE, "flaming_weapon", SpellType.UTILITY, 70, EnumAction.BOW, false);
 	}

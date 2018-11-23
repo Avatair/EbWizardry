@@ -16,6 +16,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
 public class SummonSnowGolem extends Spell {
+	// SHAPE: SUMMON AROUND SELF
 
 	public SummonSnowGolem(){
 		super(Tier.APPRENTICE, 15, Element.ICE, "summon_snow_golem", SpellType.MINION, 20, EnumAction.BOW, false);

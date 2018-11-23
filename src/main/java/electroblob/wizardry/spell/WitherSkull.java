@@ -16,6 +16,7 @@ import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
 
 public class WitherSkull extends Spell {
+	// SHAPE: PROJECTILE
 
 	public WitherSkull(){
 		super(Tier.ADVANCED, 20, Element.NECROMANCY, "wither_skull", SpellType.ATTACK, 30, EnumAction.NONE, false);

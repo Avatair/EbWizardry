@@ -17,6 +17,7 @@ import net.minecraft.util.text.TextComponentTranslation;
 import net.minecraft.world.World;
 
 public class InvokeWeather extends Spell {
+	// SHAPE: AOE
 
 	public InvokeWeather(){
 		super(Tier.ADVANCED, 30, Element.LIGHTNING, "invoke_weather", SpellType.UTILITY, 100, EnumAction.BOW, false);

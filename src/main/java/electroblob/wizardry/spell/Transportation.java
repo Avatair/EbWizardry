@@ -17,6 +17,7 @@ import net.minecraft.util.text.TextComponentTranslation;
 import net.minecraft.world.World;
 
 public class Transportation extends Spell {
+	// SHAPE: SELF
 
 	public Transportation(){
 		super(Tier.ADVANCED, 100, Element.SORCERY, "transportation", SpellType.UTILITY, 100, EnumAction.BOW, false);

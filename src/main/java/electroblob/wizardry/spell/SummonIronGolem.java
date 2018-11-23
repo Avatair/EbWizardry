@@ -16,6 +16,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
 public class SummonIronGolem extends Spell {
+	// SHAPE: SUMMON AROUND SELF
 
 	public SummonIronGolem(){
 		super(Tier.MASTER, 175, Element.SORCERY, "summon_iron_golem", SpellType.MINION, 400, EnumAction.BOW, false);

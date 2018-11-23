@@ -22,6 +22,8 @@ import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.World;
 
 public class LightningPulse extends Spell {
+	
+	// SHAPE: AROUND SELF
 
 	public LightningPulse(){
 		super(Tier.ADVANCED, 25, Element.LIGHTNING, "lightning_pulse", SpellType.ATTACK, 75, EnumAction.NONE, false);

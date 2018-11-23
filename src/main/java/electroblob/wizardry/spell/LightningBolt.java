@@ -24,6 +24,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 @Mod.EventBusSubscriber
 public class LightningBolt extends Spell {
+	// SHAPE: SUMMON
 
 	/** The NBT key used to store the UUID of the player that summoned the lightning bolt. Used for achievements. */
 	public static final String NBT_KEY = "summoningPlayer";

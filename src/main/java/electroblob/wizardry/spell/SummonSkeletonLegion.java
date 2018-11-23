@@ -18,6 +18,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
 public class SummonSkeletonLegion extends Spell {
+	// SHAPE: SUMMON AROUND SELF
 
 	public SummonSkeletonLegion(){
 		super(Tier.MASTER, 100, Element.NECROMANCY, "summon_skeleton_legion", SpellType.MINION, 400, EnumAction.BOW,

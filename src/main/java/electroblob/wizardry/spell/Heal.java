@@ -16,6 +16,8 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.world.World;
 
 public class Heal extends Spell {
+	// SHAPE: SELF
+	// kein SHAPE: FAR TOUCH, da HealAlly existiert. 
 
 	public Heal(){
 		super(Tier.BASIC, 5, Element.HEALING, "heal", SpellType.DEFENCE, 20, EnumAction.BOW, false);

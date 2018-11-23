@@ -16,6 +16,7 @@ import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.world.World;
 
 public class Meteor extends Spell {
+	// SHAPE: SUMMON FAR TOUCH
 
 	public Meteor(){
 		super(Tier.MASTER, 100, Element.FIRE, "meteor", SpellType.ATTACK, 200, EnumAction.NONE, false);

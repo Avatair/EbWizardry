@@ -17,6 +17,7 @@ import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.world.World;
 
 public class Blizzard extends Spell {
+	// SHAPE: FAR TOUCH AOE
 
 	public Blizzard(){
 		super(Tier.ADVANCED, 40, Element.ICE, "blizzard", SpellType.ATTACK, 100, EnumAction.NONE, false);

@@ -22,6 +22,7 @@ import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.world.World;
 
 public class Telekinesis extends Spell {
+	// SHAPE: FAR TOUCH
 
 	public Telekinesis(){
 		super(Tier.BASIC, 5, Element.SORCERY, "telekinesis", SpellType.UTILITY, 5, EnumAction.NONE, false);

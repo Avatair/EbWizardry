@@ -20,6 +20,7 @@ import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.world.World;
 
 public class Blink extends Spell {
+	// SHAPE: SELF
 
 	public Blink(){
 		super(Tier.APPRENTICE, 15, Element.SORCERY, "blink", SpellType.UTILITY, 25, EnumAction.NONE, false);

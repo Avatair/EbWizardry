@@ -17,6 +17,7 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.world.World;
 
 public class IceShroud extends Spell {
+	// SHAPE: SELF
 
 	public IceShroud(){
 		super(Tier.ADVANCED, 40, Element.ICE, "ice_shroud", SpellType.DEFENCE, 250, EnumAction.BOW, false);

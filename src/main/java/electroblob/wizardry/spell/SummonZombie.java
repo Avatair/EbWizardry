@@ -17,6 +17,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
 public class SummonZombie extends Spell {
+	// SHAPE: SUMMON AROUND SELF
 
 	public SummonZombie(){
 		super(Tier.BASIC, 10, Element.NECROMANCY, "summon_zombie", SpellType.MINION, 40, EnumAction.BOW, false);

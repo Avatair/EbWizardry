@@ -16,6 +16,7 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.world.World;
 
 public class LightningArrow extends Spell {
+	// SHAPE: PROJECTILE
 
 	public LightningArrow(){
 		super(Tier.APPRENTICE, 15, Element.LIGHTNING, "lightning_arrow", SpellType.ATTACK, 20, EnumAction.NONE, false);

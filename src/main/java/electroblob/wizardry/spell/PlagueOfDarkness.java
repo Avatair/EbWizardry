@@ -25,6 +25,8 @@ import net.minecraft.util.EnumParticleTypes;
 import net.minecraft.world.World;
 
 public class PlagueOfDarkness extends Spell {
+	
+	// SHAPE: AROUND SELF
 
 	public PlagueOfDarkness(){
 		super(Tier.MASTER, 75, Element.NECROMANCY, "plague_of_darkness", SpellType.ATTACK, 200, EnumAction.BOW, false);

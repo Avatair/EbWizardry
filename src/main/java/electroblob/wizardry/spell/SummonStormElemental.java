@@ -15,6 +15,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
 public class SummonStormElemental extends Spell {
+	// SHAPE: SUMMON AROUND SELF
 
 	public SummonStormElemental(){
 		super(Tier.MASTER, 100, Element.LIGHTNING, "summon_storm_elemental", SpellType.MINION, 400, EnumAction.BOW,

@@ -15,6 +15,7 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.world.World;
 
 public class DarknessOrb extends Spell {
+	// SHAPE: PROJECTILE
 
 	public DarknessOrb(){
 		super(Tier.ADVANCED, 20, Element.NECROMANCY, "darkness_orb", SpellType.ATTACK, 20, EnumAction.NONE, false);

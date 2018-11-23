@@ -23,6 +23,7 @@ import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
 
 public class IceStatue extends Spell {
+	// SHAPE: FAR TOUCH RAY
 
 	private static final int baseDuration = 400;
 

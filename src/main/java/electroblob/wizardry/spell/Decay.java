@@ -19,6 +19,7 @@ import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.world.World;
 
 public class Decay extends Spell {
+	// SHAPE: FAR TOUCH
 
 	public Decay(){
 		super(Tier.ADVANCED, 50, Element.NECROMANCY, "decay", SpellType.ATTACK, 200, EnumAction.NONE, false);

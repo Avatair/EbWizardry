@@ -24,6 +24,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 @Mod.EventBusSubscriber
 public class CurseOfSoulbinding extends Spell {
+	// SHAPE: FAR TOUCH RAY
 
 	public CurseOfSoulbinding(){
 		super(Tier.ADVANCED, 35, Element.NECROMANCY, "curse_of_soulbinding", SpellType.ATTACK, 100, EnumAction.NONE,

@@ -35,6 +35,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 @Mod.EventBusSubscriber
 public class Clairvoyance extends Spell {
+	// SHAPE: ?SELF?
 
 	/** The number of ticks it takes each path particle to move from one path point to the next. */
 	public static final int PARTICLE_MOVEMENT_INTERVAL = 45;

@@ -17,6 +17,7 @@ import net.minecraft.util.EnumParticleTypes;
 import net.minecraft.world.World;
 
 public class Earthquake extends Spell {
+	// SHAPE: FAR TOUCH ?AOE?
 
 	public Earthquake(){
 		super(Tier.MASTER, 75, Element.EARTH, "earthquake", SpellType.ATTACK, 250, EnumAction.NONE, false);

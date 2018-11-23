@@ -17,6 +17,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
 public class SummonLightningWraith extends Spell {
+	// SHAPE: SUMMON AROUND SELF
 
 	public SummonLightningWraith(){
 		super(Tier.ADVANCED, 40, Element.LIGHTNING, "summon_lightning_wraith", SpellType.MINION, 200, EnumAction.BOW,

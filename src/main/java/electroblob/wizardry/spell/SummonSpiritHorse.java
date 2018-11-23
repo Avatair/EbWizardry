@@ -15,6 +15,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
 public class SummonSpiritHorse extends Spell {
+	// SHAPE: SUMMON AROUND SELF
 
 	public SummonSpiritHorse(){
 		super(Tier.ADVANCED, 50, Element.EARTH, "summon_spirit_horse", SpellType.MINION, 150, EnumAction.BOW, false);

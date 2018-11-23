@@ -16,6 +16,7 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.world.World;
 
 public class IceLance extends Spell {
+	// SHAPE: PROJECTILE
 
 	public IceLance(){
 		super(Tier.ADVANCED, 20, Element.ICE, "ice_lance", SpellType.ATTACK, 20, EnumAction.NONE, false);

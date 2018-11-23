@@ -15,6 +15,7 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.world.World;
 
 public class LightningDisc extends Spell {
+	// SHAPE: PROJECTILE
 
 	public LightningDisc(){
 		super(Tier.ADVANCED, 25, Element.LIGHTNING, "lightning_disc", SpellType.ATTACK, 60, EnumAction.NONE, false);

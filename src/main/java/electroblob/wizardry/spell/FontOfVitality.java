@@ -17,6 +17,7 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.world.World;
 
 public class FontOfVitality extends Spell {
+	// SHAPE: SELF
 
 	public FontOfVitality(){
 		super(Tier.MASTER, 75, Element.HEALING, "font_of_vitality", SpellType.DEFENCE, 300, EnumAction.BOW, false);

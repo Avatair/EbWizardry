@@ -21,6 +21,7 @@ import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.world.World;
 
 public class Cobwebs extends Spell {
+	// SHAPE: FAR TOUCH
 
 	private static final int baseDuration = 400;
 

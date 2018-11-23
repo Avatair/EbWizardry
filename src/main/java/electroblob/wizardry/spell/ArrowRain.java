@@ -15,6 +15,7 @@ import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.world.World;
 
 public class ArrowRain extends Spell {
+	// SHAPE: SUMMON FAR TOUCH
 
 	public ArrowRain(){
 		super(Tier.MASTER, 75, Element.SORCERY, "arrow_rain", SpellType.ATTACK, 300, EnumAction.NONE, false);

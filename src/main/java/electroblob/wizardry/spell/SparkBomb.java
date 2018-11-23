@@ -16,6 +16,7 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.world.World;
 
 public class SparkBomb extends Spell {
+	// SHAPE: PROJECTILE
 
 	public SparkBomb(){
 		super(Tier.APPRENTICE, 15, Element.LIGHTNING, "spark_bomb", SpellType.ATTACK, 25, EnumAction.NONE, false);

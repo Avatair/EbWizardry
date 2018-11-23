@@ -24,6 +24,7 @@ import net.minecraft.util.text.TextComponentTranslation;
 import net.minecraft.world.World;
 
 public class Firestorm extends Spell {
+	// SHAPE: RAY
 
 	public Firestorm(){
 		super(Tier.MASTER, 15, Element.FIRE, "firestorm", SpellType.ATTACK, 0, EnumAction.NONE, true);

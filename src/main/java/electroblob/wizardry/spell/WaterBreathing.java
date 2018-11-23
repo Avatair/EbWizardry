@@ -17,6 +17,7 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.world.World;
 
 public class WaterBreathing extends Spell {
+	// SHAPE: SELF
 
 	public WaterBreathing(){
 		super(Tier.ADVANCED, 30, Element.EARTH, "water_breathing", SpellType.UTILITY, 250, EnumAction.BOW, false);

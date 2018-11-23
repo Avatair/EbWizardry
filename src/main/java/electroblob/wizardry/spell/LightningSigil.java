@@ -16,6 +16,7 @@ import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.world.World;
 
 public class LightningSigil extends Spell {
+	// SHAPE: SUMMON AROUND SELF
 
 	public LightningSigil(){
 		super(Tier.APPRENTICE, 10, Element.LIGHTNING, "lightning_sigil", SpellType.ATTACK, 20, EnumAction.NONE, false);

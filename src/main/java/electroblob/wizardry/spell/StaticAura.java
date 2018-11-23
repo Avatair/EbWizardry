@@ -17,6 +17,7 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.world.World;
 
 public class StaticAura extends Spell {
+	// SHAPE: SELF
 
 	public StaticAura(){
 		super(Tier.ADVANCED, 40, Element.LIGHTNING, "static_aura", SpellType.DEFENCE, 250, EnumAction.BOW, false);

@@ -17,6 +17,7 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.world.World;
 
 public class Darkvision extends Spell {
+	// SHAPE: SELF
 
 	public Darkvision(){
 		super(Tier.APPRENTICE, 20, Element.EARTH, "darkvision", SpellType.UTILITY, 40, EnumAction.BOW, false);

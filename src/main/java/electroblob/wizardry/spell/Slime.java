@@ -26,6 +26,7 @@ import net.minecraft.util.text.TextComponentTranslation;
 import net.minecraft.world.World;
 
 public class Slime extends Spell {
+	// SHAPE: FAR TOUCH RAY
 
 	public Slime(){
 		super(Tier.ADVANCED, 20, Element.EARTH, "slime", SpellType.ATTACK, 50, EnumAction.NONE, false);

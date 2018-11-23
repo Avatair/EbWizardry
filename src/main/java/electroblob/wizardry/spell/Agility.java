@@ -17,6 +17,7 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.world.World;
 
 public class Agility extends Spell {
+	// SHAPE: SELF
 
 	public Agility(){
 		super(Tier.APPRENTICE, 20, Element.SORCERY, "agility", SpellType.UTILITY, 40, EnumAction.BOW, false);

@@ -22,6 +22,7 @@ import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.world.World;
 
 public class Detonate extends Spell {
+	// SHAPE: FAR TOUCH
 
 	public Detonate(){
 		super(Tier.ADVANCED, 45, Element.FIRE, "detonate", SpellType.ATTACK, 50, EnumAction.NONE, false);

@@ -19,6 +19,7 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.world.World;
 
 public class Invisibility extends Spell {
+	// SHAPE: SELF
 
 	public Invisibility(){
 		super(Tier.ADVANCED, 35, Element.SORCERY, "invisibility", SpellType.UTILITY, 200, EnumAction.BOW, false);

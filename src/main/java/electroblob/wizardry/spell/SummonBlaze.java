@@ -17,6 +17,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
 public class SummonBlaze extends Spell {
+	// SHAPE: SUMMON AROUND SELF
 
 	public SummonBlaze(){
 		super(Tier.ADVANCED, 40, Element.FIRE, "summon_blaze", SpellType.MINION, 200, EnumAction.BOW, false);

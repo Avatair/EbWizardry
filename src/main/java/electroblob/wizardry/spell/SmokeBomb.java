@@ -16,6 +16,7 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.world.World;
 
 public class SmokeBomb extends Spell {
+	// SHAPE: PROJECTILE
 
 	public SmokeBomb(){
 		super(Tier.BASIC, 10, Element.FIRE, "smoke_bomb", SpellType.ATTACK, 20, EnumAction.NONE, false);

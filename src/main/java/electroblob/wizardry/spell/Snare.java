@@ -20,6 +20,7 @@ import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.world.World;
 
 public class Snare extends Spell {
+	// SHAPE: SUMMON FAR TOUCH RAY
 
 	public Snare(){
 		super(Tier.BASIC, 10, Element.EARTH, "snare", SpellType.ATTACK, 10, EnumAction.NONE, false);

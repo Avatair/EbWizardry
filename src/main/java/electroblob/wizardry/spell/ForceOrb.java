@@ -16,6 +16,7 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.world.World;
 
 public class ForceOrb extends Spell {
+	// SHAPE: PROJECTILE
 
 	public ForceOrb(){
 		super(Tier.ADVANCED, 20, Element.SORCERY, "force_orb", SpellType.ATTACK, 20, EnumAction.NONE, false);

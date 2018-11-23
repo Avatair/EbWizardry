@@ -19,6 +19,7 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.world.World;
 
 public class InvigoratingPresence extends Spell {
+	// SHAPE: AROUND SELF AOE
 
 	public InvigoratingPresence(){
 		super(Tier.APPRENTICE, 30, Element.HEALING, "invigorating_presence", SpellType.UTILITY, 60, EnumAction.BOW,

@@ -17,6 +17,7 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.world.World;
 
 public class Diamondflesh extends Spell {
+	// SHAPE: SELF
 
 	public Diamondflesh(){
 		super(Tier.MASTER, 100, Element.HEALING, "diamondflesh", SpellType.DEFENCE, 300, EnumAction.BOW, false);

@@ -16,6 +16,7 @@ import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
 
 public class Fireball extends Spell {
+	// SHAPE: PROJECTILE
 
 	public Fireball(){
 		super(Tier.APPRENTICE, 10, Element.FIRE, "fireball", SpellType.ATTACK, 15, EnumAction.NONE, false);

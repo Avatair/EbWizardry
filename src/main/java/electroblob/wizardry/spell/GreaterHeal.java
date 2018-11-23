@@ -16,6 +16,7 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.world.World;
 
 public class GreaterHeal extends Spell {
+	// SHAPE: SELF
 
 	public GreaterHeal(){
 		super(Tier.ADVANCED, 15, Element.HEALING, "greater_heal", SpellType.DEFENCE, 40, EnumAction.BOW, false);

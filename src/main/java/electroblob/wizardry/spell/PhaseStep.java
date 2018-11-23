@@ -18,6 +18,7 @@ import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.world.World;
 
 public class PhaseStep extends Spell {
+	// SHAPE: TOUCH 
 
 	public PhaseStep(){
 		super(Tier.ADVANCED, 35, Element.SORCERY, "phase_step", SpellType.UTILITY, 40, EnumAction.NONE, false);

@@ -22,6 +22,7 @@ import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
 
 public class Banish extends Spell {
+	// SHAPE: FAR TOUCH
 
 	public Banish(){
 		super(Tier.APPRENTICE, 15, Element.NECROMANCY, "banish", SpellType.ATTACK, 40, EnumAction.NONE, false);

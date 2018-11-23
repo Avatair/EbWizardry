@@ -36,6 +36,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 @Mod.EventBusSubscriber
 public class MindControl extends Spell {
+	// SHAPE: FAR TOUCH RAY
 
 	/**
 	 * The NBT tag name for storing the controlling entity's UUID in the target's tag compound. Defined here in case it

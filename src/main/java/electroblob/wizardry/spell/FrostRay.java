@@ -26,7 +26,8 @@ import net.minecraft.util.text.TextComponentTranslation;
 import net.minecraft.world.World;
 
 public class FrostRay extends Spell {
-
+	// SHAPE: RAY
+	
 	public FrostRay(){
 		super(Tier.APPRENTICE, 5, Element.ICE, "frost_ray", SpellType.ATTACK, 0, EnumAction.NONE, true);
 	}

@@ -20,6 +20,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
 public class SummonSkeleton extends Spell {
+	// SHAPE: SUMMON AROUND SELF
 
 	public SummonSkeleton(){
 		super(Tier.APPRENTICE, 15, Element.NECROMANCY, "summon_skeleton", SpellType.MINION, 50, EnumAction.BOW, false);

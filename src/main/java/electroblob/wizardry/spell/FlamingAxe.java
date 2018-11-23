@@ -16,6 +16,7 @@ import net.minecraft.util.EnumParticleTypes;
 import net.minecraft.world.World;
 
 public class FlamingAxe extends Spell {
+	// SHAPE: SUMMON SELF
 
 	public FlamingAxe(){
 		super(Tier.ADVANCED, 45, Element.FIRE, "flaming_axe", SpellType.UTILITY, 50, EnumAction.BOW, false);

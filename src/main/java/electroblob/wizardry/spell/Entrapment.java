@@ -23,6 +23,7 @@ import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
 
 public class Entrapment extends Spell {
+	// SHAPE: FAR TOUCH
 
 	public Entrapment(){
 		super(Tier.ADVANCED, 35, Element.NECROMANCY, "entrapment", SpellType.ATTACK, 75, EnumAction.NONE, false);

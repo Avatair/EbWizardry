@@ -24,6 +24,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
 public class IceAge extends Spell {
+	// SHAPE: SUMMON FAR TOUCH
 
 	private static final int baseDuration = 1200;
 

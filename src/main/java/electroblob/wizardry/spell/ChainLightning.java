@@ -26,6 +26,7 @@ import net.minecraft.util.text.TextComponentTranslation;
 import net.minecraft.world.World;
 
 public class ChainLightning extends Spell {
+	// SHAPE: RAY
 
 	public ChainLightning(){
 		super(Tier.ADVANCED, 25, Element.LIGHTNING, "chain_lightning", SpellType.ATTACK, 50, EnumAction.NONE, false);

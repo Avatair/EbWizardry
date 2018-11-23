@@ -16,6 +16,7 @@ import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.world.World;
 
 public class LightningHammer extends Spell {
+	// SHAPE: SUMMON FAR TOUCH AOE
 
 	public LightningHammer(){
 		super(Tier.MASTER, 100, Element.LIGHTNING, "lightning_hammer", SpellType.ATTACK, 300, EnumAction.BOW, false);

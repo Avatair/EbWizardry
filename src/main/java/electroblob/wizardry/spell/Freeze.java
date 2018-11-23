@@ -29,6 +29,7 @@ import net.minecraft.util.text.TextComponentTranslation;
 import net.minecraft.world.World;
 
 public class Freeze extends Spell {
+	// SHAPE: FAR TOUCH RAY
 
 	public Freeze(){
 		super(Tier.BASIC, 5, Element.ICE, "freeze", SpellType.ATTACK, 10, EnumAction.NONE, false);

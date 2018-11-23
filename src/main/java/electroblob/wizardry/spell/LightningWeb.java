@@ -24,6 +24,7 @@ import net.minecraft.util.text.TextComponentTranslation;
 import net.minecraft.world.World;
 
 public class LightningWeb extends Spell {
+	// SHAPE: RAY
 
 	public LightningWeb(){
 		super(Tier.MASTER, 15, Element.LIGHTNING, "lightning_web", SpellType.ATTACK, 0, EnumAction.NONE, true);

@@ -16,6 +16,8 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.world.World;
 
 public class Tornado extends Spell {
+	// SHAPE: PROJECTILE
+	// SHAPE: TOUCH - wegen zweitem cast
 
 	public Tornado(){
 		super(Tier.ADVANCED, 35, Element.EARTH, "tornado", SpellType.ATTACK, 80, EnumAction.NONE, false);

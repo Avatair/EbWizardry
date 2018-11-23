@@ -16,6 +16,7 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.world.World;
 
 public class Dart extends Spell {
+	// SHAPE: PROJECTILE
 
 	public Dart(){
 		super(Tier.BASIC, 5, Element.EARTH, "dart", SpellType.ATTACK, 10, EnumAction.NONE, false);

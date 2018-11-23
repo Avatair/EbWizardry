@@ -15,6 +15,7 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.world.World;
 
 public class Firebolt extends Spell {
+	// SHAPE: PROJECTILE
 
 	public Firebolt(){
 		super(Tier.APPRENTICE, 10, Element.FIRE, "firebolt", SpellType.ATTACK, 10, EnumAction.NONE, false);

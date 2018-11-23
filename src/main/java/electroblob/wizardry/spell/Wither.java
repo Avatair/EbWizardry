@@ -24,6 +24,7 @@ import net.minecraft.util.text.TextComponentTranslation;
 import net.minecraft.world.World;
 
 public class Wither extends Spell {
+	// SHAPE: FAR TOUCH RAY
 
 	public Wither(){
 		super(Tier.APPRENTICE, 10, Element.NECROMANCY, "wither", SpellType.ATTACK, 20, EnumAction.NONE, false);

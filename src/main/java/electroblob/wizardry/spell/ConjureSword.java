@@ -17,6 +17,7 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.world.World;
 
 public class ConjureSword extends Spell {
+	// SHAPE: SUMMON SELF
 
 	public ConjureSword(){
 		super(Tier.APPRENTICE, 25, Element.SORCERY, "conjure_sword", SpellType.UTILITY, 50, EnumAction.BOW, false);

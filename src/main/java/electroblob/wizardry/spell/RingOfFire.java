@@ -17,6 +17,9 @@ import net.minecraft.world.World;
 
 public class RingOfFire extends Spell {
 
+	// SHAPE: SUMMON AROUND SELF AOE
+	// SHAPE: TOUCH - wegen zweitem cast
+	
 	public RingOfFire(){
 		super(Tier.ADVANCED, 30, Element.FIRE, "ring_of_fire", SpellType.ATTACK, 100, EnumAction.BOW, false);
 	}

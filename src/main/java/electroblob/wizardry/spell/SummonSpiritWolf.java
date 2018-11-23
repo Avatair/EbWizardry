@@ -15,6 +15,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
 public class SummonSpiritWolf extends Spell {
+	// SHAPE: SUMMON AROUND SELF
 
 	public SummonSpiritWolf(){
 		super(Tier.APPRENTICE, 25, Element.EARTH, "summon_spirit_wolf", SpellType.MINION, 100, EnumAction.BOW, false);

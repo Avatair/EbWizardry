@@ -22,6 +22,7 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.world.World;
 
 public class FreezingWeapon extends Spell {
+	// SHAPE: SELF
 
 	/**
 	 * The NBT tag name for storing the level of frost enchantment in the arrow's tag compound. (There's nothing

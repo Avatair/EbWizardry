@@ -26,6 +26,7 @@ import net.minecraft.world.World;
 // This spell was the 'guinea pig' for damage types, so to speak, so there's a bit of commentary on them here that may
 // be useful for future reference.
 public class Arc extends Spell {
+	// SHAPE: FAR TOUCH RAY
 
 	public Arc(){
 		super(Tier.BASIC, 5, Element.LIGHTNING, "arc", SpellType.ATTACK, 15, EnumAction.NONE, false);

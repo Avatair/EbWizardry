@@ -17,6 +17,7 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class SummonShadowWraith extends Spell {
+	// SHAPE: SUMMON AROUND SELF
 
 	public SummonShadowWraith(){
 		super(Tier.MASTER, 100, Element.NECROMANCY, "summon_shadow_wraith", SpellType.MINION, 400, EnumAction.BOW,

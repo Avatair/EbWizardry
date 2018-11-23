@@ -17,6 +17,7 @@ import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.world.World;
 
 public class HealAlly extends Spell {
+	// SHAPE: FAR TOUCH
 
 	public HealAlly(){
 		super(Tier.APPRENTICE, 10, Element.HEALING, "heal_ally", SpellType.DEFENCE, 20, EnumAction.NONE, false);

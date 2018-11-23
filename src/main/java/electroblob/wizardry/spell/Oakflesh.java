@@ -19,6 +19,7 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.world.World;
 
 public class Oakflesh extends Spell {
+	// SHAPE: SELF
 
 	public Oakflesh(){
 		super(Tier.APPRENTICE, 20, Element.HEALING, "oakflesh", SpellType.DEFENCE, 50, EnumAction.BOW, false);

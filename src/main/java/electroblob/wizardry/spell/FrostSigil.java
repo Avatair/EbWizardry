@@ -16,6 +16,7 @@ import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.world.World;
 
 public class FrostSigil extends Spell {
+	// SHAPE: SUMMON AROUND SELF
 
 	public FrostSigil(){
 		super(Tier.APPRENTICE, 10, Element.ICE, "frost_sigil", SpellType.ATTACK, 20, EnumAction.NONE, false);

@@ -14,6 +14,7 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.world.World;
 
 public class Levitation extends Spell {
+	// SHAPE: SELF
 
 	public Levitation(){
 		super(Tier.ADVANCED, 10, Element.SORCERY, "levitation", SpellType.UTILITY, 0, EnumAction.BOW, true);

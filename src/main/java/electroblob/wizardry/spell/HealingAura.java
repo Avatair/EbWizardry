@@ -14,6 +14,7 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.world.World;
 
 public class HealingAura extends Spell {
+	// SHAPE: AROUND SELF AOE
 
 	public HealingAura(){
 		super(Tier.ADVANCED, 35, Element.HEALING, "healing_aura", SpellType.DEFENCE, 150, EnumAction.BOW, false);

@@ -19,6 +19,7 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.world.World;
 
 public class ConjureArmour extends Spell {
+	// SHAPE: SUMMON SELF
 
 	public ConjureArmour(){
 		super(Tier.ADVANCED, 45, Element.HEALING, "conjure_armour", SpellType.DEFENCE, 50, EnumAction.BOW, false);

@@ -19,6 +19,7 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.world.World;
 
 public class Ironflesh extends Spell {
+	// SHAPE: SELF
 
 	public Ironflesh(){
 		super(Tier.ADVANCED, 30, Element.HEALING, "ironflesh", SpellType.DEFENCE, 100, EnumAction.BOW, false);

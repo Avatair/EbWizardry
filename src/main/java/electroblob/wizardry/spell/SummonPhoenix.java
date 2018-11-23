@@ -15,6 +15,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
 public class SummonPhoenix extends Spell {
+	// SHAPE: SUMMON AROUND SELF
 
 	public SummonPhoenix(){
 		super(Tier.MASTER, 150, Element.FIRE, "summon_phoenix", SpellType.MINION, 400, EnumAction.BOW, false);

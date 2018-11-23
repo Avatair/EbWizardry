@@ -16,7 +16,8 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.world.World;
 
 public class IceCharge extends Spell {
-
+	// SHAPE: PROJECTILE
+	
 	public IceCharge(){
 		super(Tier.ADVANCED, 20, Element.ICE, "ice_charge", SpellType.ATTACK, 30, EnumAction.NONE, false);
 	}

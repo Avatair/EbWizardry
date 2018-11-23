@@ -15,6 +15,7 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.world.World;
 
 public class Thunderbolt extends Spell {
+	// SHAPE: PROJECTILE
 
 	public Thunderbolt(){
 		super(Tier.BASIC, 10, Element.LIGHTNING, "thunderbolt", SpellType.ATTACK, 15, EnumAction.NONE, false);
