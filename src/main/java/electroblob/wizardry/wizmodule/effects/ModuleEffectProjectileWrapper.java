@@ -3,13 +3,11 @@ package electroblob.wizardry.wizmodule.effects;
 import com.teamwizardry.wizardry.api.spell.SpellData;
 import com.teamwizardry.wizardry.api.spell.SpellRing;
 import com.teamwizardry.wizardry.api.spell.annotation.ModuleOverride;
+import com.teamwizardry.wizardry.api.spell.annotation.ModuleParameter;
 import com.teamwizardry.wizardry.api.spell.annotation.RegisterModule;
-import com.teamwizardry.wizardry.api.spell.attribute.AttributeRegistry;
 import com.teamwizardry.wizardry.api.spell.module.IModuleEffect;
 import com.teamwizardry.wizardry.api.spell.module.ModuleInstanceEffect;
 
-import electroblob.wizardry.constants.Constants;
-import electroblob.wizardry.registry.WizardryItems;
 import electroblob.wizardry.spell.Spell;
 import electroblob.wizardry.util.SpellModifiers;
 import net.minecraft.entity.player.EntityPlayer;
@@ -18,16 +16,13 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
 
-@RegisterModule(ID="effect_ebw_darkness_orb")
-public class ModuleEffectDarknessOrb implements IModuleEffect {
+@RegisterModule(ID="effect_ebw_projectile_wrapper")
+public class ModuleEffectProjectileWrapper implements IModuleEffect {
 	
-	private static String spellName;
+	@ModuleParameter("ebwspell")
+	public String spellName;
 	
 	private Spell lazy_spell;
-	
-	public ModuleEffectDarknessOrb() {
-		spellName = "ebwizardry:darkness_orb";
-	}
 
 	@Override
 	public String[] compatibleModifierClasses() {

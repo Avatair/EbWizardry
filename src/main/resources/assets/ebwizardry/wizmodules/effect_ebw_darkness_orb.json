@@ -1,6 +1,9 @@
 {
   "sub_module_id": "effect_ebw_darkness_orb",
-  "reference_module_id": "effect_ebw_darkness_orb",
+  "reference_module_id": "effect_ebw_projectile_wrapper",
+  "parameters" : {
+    "ebwspell" : "ebwizardry:darkness_orb"
+  },
   "item": "minecraft:wheat",
   "icon": "wizardry:textures/gui/worktable/icons/effect_frost.png",
   "primary_color": "FFFFFF",
