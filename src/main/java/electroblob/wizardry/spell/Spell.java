@@ -1,6 +1,7 @@
 package electroblob.wizardry.spell;
 
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -78,7 +79,11 @@ public abstract class Spell extends IForgeRegistryEntry.Impl<Spell> implements C
 
 	/** Forge registry-based replacement for the internal spells list. */
 	public static IForgeRegistry<Spell> registry;
+	/** ID to spell map */
+	private static HashMap<Integer, Spell> IDtoSpell = new HashMap<>();
 
+	/** The ID of the spell as it is resolved from item metas */
+	public final int id;
 	/** The tier this spell belongs to. */
 	public final Tier tier;
 	/** Mana cost of the spell. If it is a continuous spell the cost is per second. */
@@ -150,6 +155,7 @@ public abstract class Spell extends IForgeRegistryEntry.Impl<Spell> implements C
 	 */
 	public Spell(int id, Tier tier, int cost, Element element, String name, SpellType type, int cooldown, EnumAction action,
 			boolean isContinuous, String modID){
+		this.id = id;
 		this.tier = tier;
 		this.cost = cost;
 		this.element = element;
@@ -386,11 +392,28 @@ public abstract class Spell extends IForgeRegistryEntry.Impl<Spell> implements C
 	 * better way; see </i>{@link Spell#getSpells(Predicate)}.
 	 */
 	public static Spell get(int id){
-		if(id < 0 || id >= registry.getValuesCollection().size()){
+		refreshSpellIDsMapping();
+		Spell spell = IDtoSpell.get(id);
+		if( spell == null )
 			return Spells.none;
+		return spell;
+	}
+	
+	/**
+	 * Refreshes the spell ID to spell mapping to keep it in synch with Forge registry.
+	 */
+	private static void refreshSpellIDsMapping() {
+		Collection<Spell> collection = registry.getValuesCollection();
+		if( collection.size() == IDtoSpell.size() )
+			return;		// Test is sufficient, because unregistering is not existing and thus the collection will only grow on changes.
+		
+		IDtoSpell.clear();
+		for( Spell spell : collection ) {
+			Spell old = IDtoSpell.get(spell.id);
+			if( old != null )
+				throw new IllegalStateException("Spell ID conflict found between '" + old.getDisplayName() + "' and '" + spell.getDisplayName() + "'.");
+			IDtoSpell.put(spell.id, spell);
 		}
-		Spell spell = ((ForgeRegistry<Spell>)registry).getValue(id);
-		return spell == null ? Spells.none : spell;
 	}
 
 	/**
