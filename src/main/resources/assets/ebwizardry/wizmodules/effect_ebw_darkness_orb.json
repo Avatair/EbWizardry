@@ -4,16 +4,13 @@
   "parameters" : {
     "ebwspell" : "ebwizardry:darkness_orb"
   },
-  "item": "minecraft:wheat",
+  "item": "ebwizardry:scroll",
+  "meta": 69,
   "icon": "wizardry:textures/gui/worktable/icons/effect_frost.png",
-  "primary_color": "FFFFFF",
-  "secondary_color": "FFFFFF",
   "mana": {
-    "base": 100
+    "base": 20
   },
   "burnout": {
-    "base": 50
-  },
-  "area": { "base": 1, "min": 1, "max": 16 },
-  "duration": { "base": 5, "min": 5, "max": 40 }
+    "base": 20
+  }
 }
