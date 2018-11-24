@@ -20,8 +20,8 @@ import net.minecraft.world.World;
 
 public class Ironflesh extends Spell {
 
-	public Ironflesh(){
-		super(Tier.ADVANCED, 30, Element.HEALING, "ironflesh", SpellType.DEFENCE, 100, EnumAction.BOW, false);
+	public Ironflesh(int id){
+		super(id, Tier.ADVANCED, 30, Element.HEALING, "ironflesh", SpellType.DEFENCE, 100, EnumAction.BOW, false);
 	}
 
 	@Override

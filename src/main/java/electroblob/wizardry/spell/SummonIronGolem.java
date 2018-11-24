@@ -17,8 +17,8 @@ import net.minecraft.world.World;
 
 public class SummonIronGolem extends Spell {
 
-	public SummonIronGolem(){
-		super(Tier.MASTER, 175, Element.SORCERY, "summon_iron_golem", SpellType.MINION, 400, EnumAction.BOW, false);
+	public SummonIronGolem(int id){
+		super(id, Tier.MASTER, 175, Element.SORCERY, "summon_iron_golem", SpellType.MINION, 400, EnumAction.BOW, false);
 	}
 
 	@Override

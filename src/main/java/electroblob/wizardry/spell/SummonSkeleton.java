@@ -21,8 +21,8 @@ import net.minecraft.world.World;
 
 public class SummonSkeleton extends Spell {
 
-	public SummonSkeleton(){
-		super(Tier.APPRENTICE, 15, Element.NECROMANCY, "summon_skeleton", SpellType.MINION, 50, EnumAction.BOW, false);
+	public SummonSkeleton(int id){
+		super(id, Tier.APPRENTICE, 15, Element.NECROMANCY, "summon_skeleton", SpellType.MINION, 50, EnumAction.BOW, false);
 	}
 
 	@Override

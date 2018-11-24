@@ -26,8 +26,8 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 @Mod.EventBusSubscriber
 public class ShadowWard extends Spell {
 
-	public ShadowWard(){
-		super(Tier.ADVANCED, 10, Element.NECROMANCY, "shadow_ward", SpellType.DEFENCE, 0, EnumAction.BLOCK, true);
+	public ShadowWard(int id){
+		super(id, Tier.ADVANCED, 10, Element.NECROMANCY, "shadow_ward", SpellType.DEFENCE, 0, EnumAction.BLOCK, true);
 	}
 
 	@Override

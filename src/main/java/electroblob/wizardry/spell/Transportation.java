@@ -18,8 +18,8 @@ import net.minecraft.world.World;
 
 public class Transportation extends Spell {
 
-	public Transportation(){
-		super(Tier.ADVANCED, 100, Element.SORCERY, "transportation", SpellType.UTILITY, 100, EnumAction.BOW, false);
+	public Transportation(int id){
+		super(id, Tier.ADVANCED, 100, Element.SORCERY, "transportation", SpellType.UTILITY, 100, EnumAction.BOW, false);
 	}
 
 	@Override

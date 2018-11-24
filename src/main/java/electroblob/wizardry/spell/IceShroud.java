@@ -18,8 +18,8 @@ import net.minecraft.world.World;
 
 public class IceShroud extends Spell {
 
-	public IceShroud(){
-		super(Tier.ADVANCED, 40, Element.ICE, "ice_shroud", SpellType.DEFENCE, 250, EnumAction.BOW, false);
+	public IceShroud(int id){
+		super(id, Tier.ADVANCED, 40, Element.ICE, "ice_shroud", SpellType.DEFENCE, 250, EnumAction.BOW, false);
 	}
 
 	@Override

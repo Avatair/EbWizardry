@@ -18,8 +18,8 @@ import net.minecraft.world.World;
 
 public class InvokeWeather extends Spell {
 
-	public InvokeWeather(){
-		super(Tier.ADVANCED, 30, Element.LIGHTNING, "invoke_weather", SpellType.UTILITY, 100, EnumAction.BOW, false);
+	public InvokeWeather(int id){
+		super(id, Tier.ADVANCED, 30, Element.LIGHTNING, "invoke_weather", SpellType.UTILITY, 100, EnumAction.BOW, false);
 	}
 
 	@Override

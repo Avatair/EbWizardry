@@ -39,8 +39,8 @@ public class Clairvoyance extends Spell {
 	/** The number of ticks it takes each path particle to move from one path point to the next. */
 	public static final int PARTICLE_MOVEMENT_INTERVAL = 45;
 
-	public Clairvoyance(){
-		super(Tier.APPRENTICE, 20, Element.SORCERY, "clairvoyance", SpellType.UTILITY, 100, EnumAction.BOW, false);
+	public Clairvoyance(int id){
+		super(id, Tier.APPRENTICE, 20, Element.SORCERY, "clairvoyance", SpellType.UTILITY, 100, EnumAction.BOW, false);
 	}
 
 	@Override

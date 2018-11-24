@@ -20,8 +20,8 @@ import net.minecraft.world.World;
 
 public class Oakflesh extends Spell {
 
-	public Oakflesh(){
-		super(Tier.APPRENTICE, 20, Element.HEALING, "oakflesh", SpellType.DEFENCE, 50, EnumAction.BOW, false);
+	public Oakflesh(int id){
+		super(id, Tier.APPRENTICE, 20, Element.HEALING, "oakflesh", SpellType.DEFENCE, 50, EnumAction.BOW, false);
 	}
 
 	@Override

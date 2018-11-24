@@ -18,8 +18,8 @@ import net.minecraft.world.World;
 
 public class ConjurePickaxe extends Spell {
 
-	public ConjurePickaxe(){
-		super(Tier.APPRENTICE, 25, Element.SORCERY, "conjure_pickaxe", SpellType.UTILITY, 50, EnumAction.BOW, false);
+	public ConjurePickaxe(int id){
+		super(id, Tier.APPRENTICE, 25, Element.SORCERY, "conjure_pickaxe", SpellType.UTILITY, 50, EnumAction.BOW, false);
 	}
 
 	@Override

@@ -16,8 +16,8 @@ import net.minecraft.world.World;
 
 public class ArrowRain extends Spell {
 
-	public ArrowRain(){
-		super(Tier.MASTER, 75, Element.SORCERY, "arrow_rain", SpellType.ATTACK, 300, EnumAction.NONE, false);
+	public ArrowRain(int id){
+		super(id, Tier.MASTER, 75, Element.SORCERY, "arrow_rain", SpellType.ATTACK, 300, EnumAction.NONE, false);
 	}
 
 	@Override

@@ -16,8 +16,8 @@ import net.minecraft.world.World;
 
 public class LightningDisc extends Spell {
 
-	public LightningDisc(){
-		super(Tier.ADVANCED, 25, Element.LIGHTNING, "lightning_disc", SpellType.ATTACK, 60, EnumAction.NONE, false);
+	public LightningDisc(int id){
+		super(id, Tier.ADVANCED, 25, Element.LIGHTNING, "lightning_disc", SpellType.ATTACK, 60, EnumAction.NONE, false);
 	}
 
 	@Override

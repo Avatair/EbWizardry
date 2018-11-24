@@ -17,8 +17,8 @@ import net.minecraft.world.World;
 
 public class Dart extends Spell {
 
-	public Dart(){
-		super(Tier.BASIC, 5, Element.EARTH, "dart", SpellType.ATTACK, 10, EnumAction.NONE, false);
+	public Dart(int id){
+		super(id, Tier.BASIC, 5, Element.EARTH, "dart", SpellType.ATTACK, 10, EnumAction.NONE, false);
 	}
 
 	@Override

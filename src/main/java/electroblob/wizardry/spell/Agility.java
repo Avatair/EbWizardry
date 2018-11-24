@@ -18,8 +18,8 @@ import net.minecraft.world.World;
 
 public class Agility extends Spell {
 
-	public Agility(){
-		super(Tier.APPRENTICE, 20, Element.SORCERY, "agility", SpellType.UTILITY, 40, EnumAction.BOW, false);
+	public Agility(int id){
+		super(id, Tier.APPRENTICE, 20, Element.SORCERY, "agility", SpellType.UTILITY, 40, EnumAction.BOW, false);
 	}
 
 	@Override

@@ -43,8 +43,8 @@ public class Metamorphosis extends Spell {
 
 	public static final BiMap<Class<? extends EntityLivingBase>, Class<? extends EntityLivingBase>> TRANSFORMATIONS = HashBiMap.create();
 
-	public Metamorphosis(){
-		super(Tier.APPRENTICE, 15, Element.NECROMANCY, "metamorphosis", SpellType.UTILITY, 30, EnumAction.NONE, false);
+	public Metamorphosis(int id){
+		super(id, Tier.APPRENTICE, 15, Element.NECROMANCY, "metamorphosis", SpellType.UTILITY, 30, EnumAction.NONE, false);
 
 		addTransformation(EntityPig.class, EntityPigZombie.class);
 		addTransformation(EntityCow.class, EntityMooshroom.class);

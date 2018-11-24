@@ -27,8 +27,8 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 @Mod.EventBusSubscriber
 public class MindTrick extends Spell {
 
-	public MindTrick(){
-		super(Tier.BASIC, 10, Element.NECROMANCY, "mind_trick", SpellType.ATTACK, 40, EnumAction.NONE, false);
+	public MindTrick(int id){
+		super(id, Tier.BASIC, 10, Element.NECROMANCY, "mind_trick", SpellType.ATTACK, 40, EnumAction.NONE, false);
 	}
 
 	@Override

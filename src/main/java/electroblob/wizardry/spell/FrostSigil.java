@@ -17,8 +17,8 @@ import net.minecraft.world.World;
 
 public class FrostSigil extends Spell {
 
-	public FrostSigil(){
-		super(Tier.APPRENTICE, 10, Element.ICE, "frost_sigil", SpellType.ATTACK, 20, EnumAction.NONE, false);
+	public FrostSigil(int id){
+		super(id, Tier.APPRENTICE, 10, Element.ICE, "frost_sigil", SpellType.ATTACK, 20, EnumAction.NONE, false);
 	}
 
 	@Override

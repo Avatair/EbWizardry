@@ -25,8 +25,8 @@ import net.minecraft.world.World;
 
 public class Firestorm extends Spell {
 
-	public Firestorm(){
-		super(Tier.MASTER, 15, Element.FIRE, "firestorm", SpellType.ATTACK, 0, EnumAction.NONE, true);
+	public Firestorm(int id){
+		super(id, Tier.MASTER, 15, Element.FIRE, "firestorm", SpellType.ATTACK, 0, EnumAction.NONE, true);
 	}
 
 	@Override

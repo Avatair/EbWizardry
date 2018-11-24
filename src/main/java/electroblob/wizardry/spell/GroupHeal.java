@@ -20,8 +20,8 @@ import net.minecraft.world.World;
 
 public class GroupHeal extends Spell {
 
-	public GroupHeal(){
-		super(Tier.ADVANCED, 35, Element.HEALING, "group_heal", SpellType.DEFENCE, 150, EnumAction.BOW, false);
+	public GroupHeal(int id){
+		super(id, Tier.ADVANCED, 35, Element.HEALING, "group_heal", SpellType.DEFENCE, 150, EnumAction.BOW, false);
 	}
 
 	@Override

@@ -25,8 +25,8 @@ import net.minecraft.world.World;
 
 public class Wither extends Spell {
 
-	public Wither(){
-		super(Tier.APPRENTICE, 10, Element.NECROMANCY, "wither", SpellType.ATTACK, 20, EnumAction.NONE, false);
+	public Wither(int id){
+		super(id, Tier.APPRENTICE, 10, Element.NECROMANCY, "wither", SpellType.ATTACK, 20, EnumAction.NONE, false);
 	}
 
 	@Override

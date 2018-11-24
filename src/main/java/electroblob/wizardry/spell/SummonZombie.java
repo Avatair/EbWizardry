@@ -18,8 +18,8 @@ import net.minecraft.world.World;
 
 public class SummonZombie extends Spell {
 
-	public SummonZombie(){
-		super(Tier.BASIC, 10, Element.NECROMANCY, "summon_zombie", SpellType.MINION, 40, EnumAction.BOW, false);
+	public SummonZombie(int id){
+		super(id, Tier.BASIC, 10, Element.NECROMANCY, "summon_zombie", SpellType.MINION, 40, EnumAction.BOW, false);
 	}
 
 	@Override

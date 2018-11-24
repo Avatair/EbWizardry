@@ -24,8 +24,8 @@ import net.minecraft.world.World;
 
 public class LightningRay extends Spell {
 
-	public LightningRay(){
-		super(Tier.APPRENTICE, 5, Element.LIGHTNING, "lightning_ray", SpellType.ATTACK, 0, EnumAction.NONE, true);
+	public LightningRay(int id){
+		super(id, Tier.APPRENTICE, 5, Element.LIGHTNING, "lightning_ray", SpellType.ATTACK, 0, EnumAction.NONE, true);
 	}
 
 	@Override

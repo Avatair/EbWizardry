@@ -18,8 +18,8 @@ import net.minecraft.world.World;
 
 public class HealAlly extends Spell {
 
-	public HealAlly(){
-		super(Tier.APPRENTICE, 10, Element.HEALING, "heal_ally", SpellType.DEFENCE, 20, EnumAction.NONE, false);
+	public HealAlly(int id){
+		super(id, Tier.APPRENTICE, 10, Element.HEALING, "heal_ally", SpellType.DEFENCE, 20, EnumAction.NONE, false);
 	}
 
 	@Override

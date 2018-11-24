@@ -23,8 +23,8 @@ import net.minecraft.world.World;
 
 public class FlamingWeapon extends Spell {
 
-	public FlamingWeapon(){
-		super(Tier.ADVANCED, 35, Element.FIRE, "flaming_weapon", SpellType.UTILITY, 70, EnumAction.BOW, false);
+	public FlamingWeapon(int id){
+		super(id, Tier.ADVANCED, 35, Element.FIRE, "flaming_weapon", SpellType.UTILITY, 70, EnumAction.BOW, false);
 	}
 
 	@Override

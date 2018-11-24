@@ -18,8 +18,8 @@ import net.minecraft.world.World;
 
 public class ConjureSword extends Spell {
 
-	public ConjureSword(){
-		super(Tier.APPRENTICE, 25, Element.SORCERY, "conjure_sword", SpellType.UTILITY, 50, EnumAction.BOW, false);
+	public ConjureSword(int id){
+		super(id, Tier.APPRENTICE, 25, Element.SORCERY, "conjure_sword", SpellType.UTILITY, 50, EnumAction.BOW, false);
 	}
 
 	@Override

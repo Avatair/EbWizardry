@@ -17,8 +17,8 @@ import net.minecraft.world.World;
 
 public class IceCharge extends Spell {
 
-	public IceCharge(){
-		super(Tier.ADVANCED, 20, Element.ICE, "ice_charge", SpellType.ATTACK, 30, EnumAction.NONE, false);
+	public IceCharge(int id){
+		super(id, Tier.ADVANCED, 20, Element.ICE, "ice_charge", SpellType.ATTACK, 30, EnumAction.NONE, false);
 	}
 
 	@Override

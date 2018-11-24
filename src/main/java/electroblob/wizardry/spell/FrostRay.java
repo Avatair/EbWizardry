@@ -27,8 +27,8 @@ import net.minecraft.world.World;
 
 public class FrostRay extends Spell {
 
-	public FrostRay(){
-		super(Tier.APPRENTICE, 5, Element.ICE, "frost_ray", SpellType.ATTACK, 0, EnumAction.NONE, true);
+	public FrostRay(int id){
+		super(id, Tier.APPRENTICE, 5, Element.ICE, "frost_ray", SpellType.ATTACK, 0, EnumAction.NONE, true);
 	}
 
 	@Override

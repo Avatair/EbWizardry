@@ -17,8 +17,8 @@ import net.minecraft.world.World;
 
 public class Shield extends Spell {
 
-	public Shield(){
-		super(Tier.APPRENTICE, 5, Element.HEALING, "shield", SpellType.DEFENCE, 0, EnumAction.BLOCK, true);
+	public Shield(int id){
+		super(id, Tier.APPRENTICE, 5, Element.HEALING, "shield", SpellType.DEFENCE, 0, EnumAction.BLOCK, true);
 	}
 
 	@Override

@@ -17,8 +17,8 @@ import net.minecraft.world.World;
 
 public class ForceOrb extends Spell {
 
-	public ForceOrb(){
-		super(Tier.ADVANCED, 20, Element.SORCERY, "force_orb", SpellType.ATTACK, 20, EnumAction.NONE, false);
+	public ForceOrb(int id){
+		super(id, Tier.ADVANCED, 20, Element.SORCERY, "force_orb", SpellType.ATTACK, 20, EnumAction.NONE, false);
 	}
 
 	@Override

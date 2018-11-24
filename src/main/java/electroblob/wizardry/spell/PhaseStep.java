@@ -19,8 +19,8 @@ import net.minecraft.world.World;
 
 public class PhaseStep extends Spell {
 
-	public PhaseStep(){
-		super(Tier.ADVANCED, 35, Element.SORCERY, "phase_step", SpellType.UTILITY, 40, EnumAction.NONE, false);
+	public PhaseStep(int id){
+		super(id, Tier.ADVANCED, 35, Element.SORCERY, "phase_step", SpellType.UTILITY, 40, EnumAction.NONE, false);
 	}
 
 	@Override

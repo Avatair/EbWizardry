@@ -20,8 +20,8 @@ import net.minecraft.world.World;
 
 public class ConjureArmour extends Spell {
 
-	public ConjureArmour(){
-		super(Tier.ADVANCED, 45, Element.HEALING, "conjure_armour", SpellType.DEFENCE, 50, EnumAction.BOW, false);
+	public ConjureArmour(int id){
+		super(id, Tier.ADVANCED, 45, Element.HEALING, "conjure_armour", SpellType.DEFENCE, 50, EnumAction.BOW, false);
 	}
 
 	@Override

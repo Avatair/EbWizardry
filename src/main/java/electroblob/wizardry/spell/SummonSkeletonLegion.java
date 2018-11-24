@@ -19,8 +19,8 @@ import net.minecraft.world.World;
 
 public class SummonSkeletonLegion extends Spell {
 
-	public SummonSkeletonLegion(){
-		super(Tier.MASTER, 100, Element.NECROMANCY, "summon_skeleton_legion", SpellType.MINION, 400, EnumAction.BOW,
+	public SummonSkeletonLegion(int id){
+		super(id, Tier.MASTER, 100, Element.NECROMANCY, "summon_skeleton_legion", SpellType.MINION, 400, EnumAction.BOW,
 				false);
 	}
 

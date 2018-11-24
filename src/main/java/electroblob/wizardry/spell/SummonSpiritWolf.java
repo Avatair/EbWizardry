@@ -16,8 +16,8 @@ import net.minecraft.world.World;
 
 public class SummonSpiritWolf extends Spell {
 
-	public SummonSpiritWolf(){
-		super(Tier.APPRENTICE, 25, Element.EARTH, "summon_spirit_wolf", SpellType.MINION, 100, EnumAction.BOW, false);
+	public SummonSpiritWolf(int id){
+		super(id, Tier.APPRENTICE, 25, Element.EARTH, "summon_spirit_wolf", SpellType.MINION, 100, EnumAction.BOW, false);
 	}
 
 	@Override

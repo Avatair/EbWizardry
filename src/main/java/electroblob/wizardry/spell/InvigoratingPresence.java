@@ -20,8 +20,8 @@ import net.minecraft.world.World;
 
 public class InvigoratingPresence extends Spell {
 
-	public InvigoratingPresence(){
-		super(Tier.APPRENTICE, 30, Element.HEALING, "invigorating_presence", SpellType.UTILITY, 60, EnumAction.BOW,
+	public InvigoratingPresence(int id){
+		super(id, Tier.APPRENTICE, 30, Element.HEALING, "invigorating_presence", SpellType.UTILITY, 60, EnumAction.BOW,
 				false);
 	}
 

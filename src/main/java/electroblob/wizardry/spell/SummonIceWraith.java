@@ -18,8 +18,8 @@ import net.minecraft.world.World;
 
 public class SummonIceWraith extends Spell {
 
-	public SummonIceWraith(){
-		super(Tier.ADVANCED, 40, Element.ICE, "summon_ice_wraith", SpellType.MINION, 200, EnumAction.BOW, false);
+	public SummonIceWraith(int id){
+		super(id, Tier.ADVANCED, 40, Element.ICE, "summon_ice_wraith", SpellType.MINION, 200, EnumAction.BOW, false);
 	}
 
 	@Override

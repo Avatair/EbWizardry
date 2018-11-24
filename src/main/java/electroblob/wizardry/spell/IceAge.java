@@ -27,8 +27,8 @@ public class IceAge extends Spell {
 
 	private static final int baseDuration = 1200;
 
-	public IceAge(){
-		super(Tier.MASTER, 70, Element.ICE, "ice_age", SpellType.ATTACK, 250, EnumAction.BOW, false);
+	public IceAge(int id){
+		super(id, Tier.MASTER, 70, Element.ICE, "ice_age", SpellType.ATTACK, 250, EnumAction.BOW, false);
 	}
 
 	@Override

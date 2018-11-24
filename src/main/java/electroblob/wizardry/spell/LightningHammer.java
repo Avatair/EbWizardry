@@ -17,8 +17,8 @@ import net.minecraft.world.World;
 
 public class LightningHammer extends Spell {
 
-	public LightningHammer(){
-		super(Tier.MASTER, 100, Element.LIGHTNING, "lightning_hammer", SpellType.ATTACK, 300, EnumAction.BOW, false);
+	public LightningHammer(int id){
+		super(id, Tier.MASTER, 100, Element.LIGHTNING, "lightning_hammer", SpellType.ATTACK, 300, EnumAction.BOW, false);
 	}
 
 	@Override

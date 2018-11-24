@@ -17,8 +17,8 @@ import net.minecraft.world.World;
 
 public class GrowthAura extends Spell {
 
-	public GrowthAura(){
-		super(Tier.APPRENTICE, 20, Element.EARTH, "growth_aura", SpellType.UTILITY, 50, EnumAction.NONE, false);
+	public GrowthAura(int id){
+		super(id, Tier.APPRENTICE, 20, Element.EARTH, "growth_aura", SpellType.UTILITY, 50, EnumAction.NONE, false);
 	}
 
 	@Override

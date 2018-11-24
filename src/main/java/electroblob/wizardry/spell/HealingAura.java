@@ -15,8 +15,8 @@ import net.minecraft.world.World;
 
 public class HealingAura extends Spell {
 
-	public HealingAura(){
-		super(Tier.ADVANCED, 35, Element.HEALING, "healing_aura", SpellType.DEFENCE, 150, EnumAction.BOW, false);
+	public HealingAura(int id){
+		super(id, Tier.ADVANCED, 35, Element.HEALING, "healing_aura", SpellType.DEFENCE, 150, EnumAction.BOW, false);
 	}
 
 	@Override

@@ -18,8 +18,8 @@ import net.minecraft.world.World;
 
 public class StaticAura extends Spell {
 
-	public StaticAura(){
-		super(Tier.ADVANCED, 40, Element.LIGHTNING, "static_aura", SpellType.DEFENCE, 250, EnumAction.BOW, false);
+	public StaticAura(int id){
+		super(id, Tier.ADVANCED, 40, Element.LIGHTNING, "static_aura", SpellType.DEFENCE, 250, EnumAction.BOW, false);
 	}
 
 	@Override

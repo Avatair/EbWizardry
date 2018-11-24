@@ -16,8 +16,8 @@ import net.minecraft.world.World;
 
 public class Thunderbolt extends Spell {
 
-	public Thunderbolt(){
-		super(Tier.BASIC, 10, Element.LIGHTNING, "thunderbolt", SpellType.ATTACK, 15, EnumAction.NONE, false);
+	public Thunderbolt(int id){
+		super(id, Tier.BASIC, 10, Element.LIGHTNING, "thunderbolt", SpellType.ATTACK, 15, EnumAction.NONE, false);
 	}
 
 	@Override

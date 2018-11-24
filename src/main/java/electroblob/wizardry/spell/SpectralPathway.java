@@ -20,8 +20,8 @@ import net.minecraft.world.World;
 
 public class SpectralPathway extends Spell {
 
-	public SpectralPathway(){
-		super(Tier.ADVANCED, 40, Element.SORCERY, "spectral_pathway", SpellType.UTILITY, 300, EnumAction.BOW, false);
+	public SpectralPathway(int id){
+		super(id, Tier.ADVANCED, 40, Element.SORCERY, "spectral_pathway", SpellType.UTILITY, 300, EnumAction.BOW, false);
 	}
 
 	@Override

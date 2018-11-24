@@ -17,8 +17,8 @@ import net.minecraft.world.World;
 
 public class LightningSigil extends Spell {
 
-	public LightningSigil(){
-		super(Tier.APPRENTICE, 10, Element.LIGHTNING, "lightning_sigil", SpellType.ATTACK, 20, EnumAction.NONE, false);
+	public LightningSigil(int id){
+		super(id, Tier.APPRENTICE, 10, Element.LIGHTNING, "lightning_sigil", SpellType.ATTACK, 20, EnumAction.NONE, false);
 	}
 
 	@Override

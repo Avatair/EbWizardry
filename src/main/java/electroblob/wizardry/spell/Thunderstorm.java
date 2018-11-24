@@ -25,8 +25,8 @@ import net.minecraft.world.World;
 
 public class Thunderstorm extends Spell {
 
-	public Thunderstorm(){
-		super(Tier.MASTER, 100, Element.LIGHTNING, "thunderstorm", SpellType.ATTACK, 250, EnumAction.BOW, false);
+	public Thunderstorm(int id){
+		super(id, Tier.MASTER, 100, Element.LIGHTNING, "thunderstorm", SpellType.ATTACK, 250, EnumAction.BOW, false);
 	}
 
 	@Override

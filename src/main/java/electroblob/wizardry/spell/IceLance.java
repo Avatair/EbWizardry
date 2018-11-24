@@ -17,8 +17,8 @@ import net.minecraft.world.World;
 
 public class IceLance extends Spell {
 
-	public IceLance(){
-		super(Tier.ADVANCED, 20, Element.ICE, "ice_lance", SpellType.ATTACK, 20, EnumAction.NONE, false);
+	public IceLance(int id){
+		super(id, Tier.ADVANCED, 20, Element.ICE, "ice_lance", SpellType.ATTACK, 20, EnumAction.NONE, false);
 	}
 
 	@Override

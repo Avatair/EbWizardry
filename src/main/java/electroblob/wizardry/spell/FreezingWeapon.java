@@ -29,8 +29,8 @@ public class FreezingWeapon extends Spell {
 	 */
 	public static final String FREEZING_ARROW_NBT_KEY = "frostLevel";
 
-	public FreezingWeapon(){
-		super(Tier.ADVANCED, 35, Element.ICE, "freezing_weapon", SpellType.UTILITY, 70, EnumAction.BOW, false);
+	public FreezingWeapon(int id){
+		super(id, Tier.ADVANCED, 35, Element.ICE, "freezing_weapon", SpellType.UTILITY, 70, EnumAction.BOW, false);
 	}
 
 	@Override

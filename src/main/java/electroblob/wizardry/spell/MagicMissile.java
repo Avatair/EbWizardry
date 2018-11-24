@@ -17,8 +17,8 @@ import net.minecraft.world.World;
 
 public class MagicMissile extends Spell {
 
-	public MagicMissile(){
-		super(Tier.BASIC, 5, Element.MAGIC, "magic_missile", SpellType.ATTACK, 10, EnumAction.NONE, false);
+	public MagicMissile(int id){
+		super(id, Tier.BASIC, 5, Element.MAGIC, "magic_missile", SpellType.ATTACK, 10, EnumAction.NONE, false);
 	}
 
 	@Override

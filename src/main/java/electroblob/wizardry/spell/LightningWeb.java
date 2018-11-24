@@ -25,8 +25,8 @@ import net.minecraft.world.World;
 
 public class LightningWeb extends Spell {
 
-	public LightningWeb(){
-		super(Tier.MASTER, 15, Element.LIGHTNING, "lightning_web", SpellType.ATTACK, 0, EnumAction.NONE, true);
+	public LightningWeb(int id){
+		super(id, Tier.MASTER, 15, Element.LIGHTNING, "lightning_web", SpellType.ATTACK, 0, EnumAction.NONE, true);
 	}
 
 	@Override

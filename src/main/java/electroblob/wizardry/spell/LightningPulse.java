@@ -23,8 +23,8 @@ import net.minecraft.world.World;
 
 public class LightningPulse extends Spell {
 
-	public LightningPulse(){
-		super(Tier.ADVANCED, 25, Element.LIGHTNING, "lightning_pulse", SpellType.ATTACK, 75, EnumAction.NONE, false);
+	public LightningPulse(int id){
+		super(id, Tier.ADVANCED, 25, Element.LIGHTNING, "lightning_pulse", SpellType.ATTACK, 75, EnumAction.NONE, false);
 	}
 
 	@Override

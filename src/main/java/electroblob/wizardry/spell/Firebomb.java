@@ -17,8 +17,8 @@ import net.minecraft.world.World;
 
 public class Firebomb extends Spell {
 
-	public Firebomb(){
-		super(Tier.APPRENTICE, 15, Element.FIRE, "firebomb", SpellType.ATTACK, 25, EnumAction.NONE, false);
+	public Firebomb(int id){
+		super(id, Tier.APPRENTICE, 15, Element.FIRE, "firebomb", SpellType.ATTACK, 25, EnumAction.NONE, false);
 	}
 
 	@Override

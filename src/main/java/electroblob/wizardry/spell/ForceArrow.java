@@ -17,8 +17,8 @@ import net.minecraft.world.World;
 
 public class ForceArrow extends Spell {
 
-	public ForceArrow(){
-		super(Tier.APPRENTICE, 15, Element.SORCERY, "force_arrow", SpellType.ATTACK, 20, EnumAction.NONE, false);
+	public ForceArrow(int id){
+		super(id, Tier.APPRENTICE, 15, Element.SORCERY, "force_arrow", SpellType.ATTACK, 20, EnumAction.NONE, false);
 	}
 
 	@Override

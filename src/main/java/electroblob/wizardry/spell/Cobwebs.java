@@ -24,8 +24,8 @@ public class Cobwebs extends Spell {
 
 	private static final int baseDuration = 400;
 
-	public Cobwebs(){
-		super(Tier.ADVANCED, 30, Element.EARTH, "cobwebs", SpellType.ATTACK, 70, EnumAction.NONE, false);
+	public Cobwebs(int id){
+		super(id, Tier.ADVANCED, 30, Element.EARTH, "cobwebs", SpellType.ATTACK, 70, EnumAction.NONE, false);
 	}
 
 	@Override

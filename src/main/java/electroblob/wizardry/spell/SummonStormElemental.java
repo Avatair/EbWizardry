@@ -16,8 +16,8 @@ import net.minecraft.world.World;
 
 public class SummonStormElemental extends Spell {
 
-	public SummonStormElemental(){
-		super(Tier.MASTER, 100, Element.LIGHTNING, "summon_storm_elemental", SpellType.MINION, 400, EnumAction.BOW,
+	public SummonStormElemental(int id){
+		super(id, Tier.MASTER, 100, Element.LIGHTNING, "summon_storm_elemental", SpellType.MINION, 400, EnumAction.BOW,
 				false);
 	}
 

@@ -23,8 +23,8 @@ import net.minecraft.world.World;
 
 public class Banish extends Spell {
 
-	public Banish(){
-		super(Tier.APPRENTICE, 15, Element.NECROMANCY, "banish", SpellType.ATTACK, 40, EnumAction.NONE, false);
+	public Banish(int id){
+		super(id, Tier.APPRENTICE, 15, Element.NECROMANCY, "banish", SpellType.ATTACK, 40, EnumAction.NONE, false);
 	}
 
 	@Override

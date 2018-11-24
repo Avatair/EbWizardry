@@ -16,8 +16,8 @@ import net.minecraft.world.World;
 
 public class SummonSpiritHorse extends Spell {
 
-	public SummonSpiritHorse(){
-		super(Tier.ADVANCED, 50, Element.EARTH, "summon_spirit_horse", SpellType.MINION, 150, EnumAction.BOW, false);
+	public SummonSpiritHorse(int id){
+		super(id, Tier.ADVANCED, 50, Element.EARTH, "summon_spirit_horse", SpellType.MINION, 150, EnumAction.BOW, false);
 	}
 
 	@Override

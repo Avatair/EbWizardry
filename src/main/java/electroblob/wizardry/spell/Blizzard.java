@@ -18,8 +18,8 @@ import net.minecraft.world.World;
 
 public class Blizzard extends Spell {
 
-	public Blizzard(){
-		super(Tier.ADVANCED, 40, Element.ICE, "blizzard", SpellType.ATTACK, 100, EnumAction.NONE, false);
+	public Blizzard(int id){
+		super(id, Tier.ADVANCED, 40, Element.ICE, "blizzard", SpellType.ATTACK, 100, EnumAction.NONE, false);
 	}
 
 	@Override

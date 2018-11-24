@@ -17,8 +17,8 @@ import net.minecraft.world.World;
 
 public class SparkBomb extends Spell {
 
-	public SparkBomb(){
-		super(Tier.APPRENTICE, 15, Element.LIGHTNING, "spark_bomb", SpellType.ATTACK, 25, EnumAction.NONE, false);
+	public SparkBomb(int id){
+		super(id, Tier.APPRENTICE, 15, Element.LIGHTNING, "spark_bomb", SpellType.ATTACK, 25, EnumAction.NONE, false);
 	}
 
 	@Override

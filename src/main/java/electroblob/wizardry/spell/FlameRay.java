@@ -24,8 +24,8 @@ import net.minecraft.world.World;
 
 public class FlameRay extends Spell {
 
-	public FlameRay(){
-		super(Tier.APPRENTICE, 5, Element.FIRE, "flame_ray", SpellType.ATTACK, 0, EnumAction.NONE, true);
+	public FlameRay(int id){
+		super(id, Tier.APPRENTICE, 5, Element.FIRE, "flame_ray", SpellType.ATTACK, 0, EnumAction.NONE, true);
 	}
 
 	@Override

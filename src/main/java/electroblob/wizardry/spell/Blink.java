@@ -21,8 +21,8 @@ import net.minecraft.world.World;
 
 public class Blink extends Spell {
 
-	public Blink(){
-		super(Tier.APPRENTICE, 15, Element.SORCERY, "blink", SpellType.UTILITY, 25, EnumAction.NONE, false);
+	public Blink(int id){
+		super(id, Tier.APPRENTICE, 15, Element.SORCERY, "blink", SpellType.UTILITY, 25, EnumAction.NONE, false);
 	}
 
 	@Override

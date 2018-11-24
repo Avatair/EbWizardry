@@ -17,8 +17,8 @@ import net.minecraft.world.World;
 
 public class RingOfFire extends Spell {
 
-	public RingOfFire(){
-		super(Tier.ADVANCED, 30, Element.FIRE, "ring_of_fire", SpellType.ATTACK, 100, EnumAction.BOW, false);
+	public RingOfFire(int id){
+		super(id, Tier.ADVANCED, 30, Element.FIRE, "ring_of_fire", SpellType.ATTACK, 100, EnumAction.BOW, false);
 	}
 
 	@Override

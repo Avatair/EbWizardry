@@ -18,8 +18,8 @@ import net.minecraft.world.World;
 
 public class FontOfVitality extends Spell {
 
-	public FontOfVitality(){
-		super(Tier.MASTER, 75, Element.HEALING, "font_of_vitality", SpellType.DEFENCE, 300, EnumAction.BOW, false);
+	public FontOfVitality(int id){
+		super(id, Tier.MASTER, 75, Element.HEALING, "font_of_vitality", SpellType.DEFENCE, 300, EnumAction.BOW, false);
 	}
 
 	@Override

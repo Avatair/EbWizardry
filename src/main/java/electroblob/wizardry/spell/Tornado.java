@@ -17,8 +17,8 @@ import net.minecraft.world.World;
 
 public class Tornado extends Spell {
 
-	public Tornado(){
-		super(Tier.ADVANCED, 35, Element.EARTH, "tornado", SpellType.ATTACK, 80, EnumAction.NONE, false);
+	public Tornado(int id){
+		super(id, Tier.ADVANCED, 35, Element.EARTH, "tornado", SpellType.ATTACK, 80, EnumAction.NONE, false);
 	}
 
 	@Override

@@ -17,8 +17,8 @@ import net.minecraft.world.World;
 
 public class Heal extends Spell {
 
-	public Heal(){
-		super(Tier.BASIC, 5, Element.HEALING, "heal", SpellType.DEFENCE, 20, EnumAction.BOW, false);
+	public Heal(int id){
+		super(id, Tier.BASIC, 5, Element.HEALING, "heal", SpellType.DEFENCE, 20, EnumAction.BOW, false);
 	}
 
 	@Override

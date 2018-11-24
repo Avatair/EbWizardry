@@ -25,8 +25,8 @@ import net.minecraft.world.World;
 
 public class Bubble extends Spell {
 
-	public Bubble(){
-		super(Tier.APPRENTICE, 15, Element.EARTH, "bubble", SpellType.ATTACK, 20, EnumAction.NONE, false);
+	public Bubble(int id){
+		super(id, Tier.APPRENTICE, 15, Element.EARTH, "bubble", SpellType.ATTACK, 20, EnumAction.NONE, false);
 	}
 
 	@Override

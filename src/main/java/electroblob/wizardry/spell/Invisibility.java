@@ -20,8 +20,8 @@ import net.minecraft.world.World;
 
 public class Invisibility extends Spell {
 
-	public Invisibility(){
-		super(Tier.ADVANCED, 35, Element.SORCERY, "invisibility", SpellType.UTILITY, 200, EnumAction.BOW, false);
+	public Invisibility(int id){
+		super(id, Tier.ADVANCED, 35, Element.SORCERY, "invisibility", SpellType.UTILITY, 200, EnumAction.BOW, false);
 	}
 
 	@Override

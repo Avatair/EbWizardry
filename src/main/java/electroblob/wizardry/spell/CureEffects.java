@@ -17,8 +17,8 @@ import net.minecraft.world.World;
 
 public class CureEffects extends Spell {
 
-	public CureEffects(){
-		super(Tier.APPRENTICE, 25, Element.HEALING, "cure_effects", SpellType.DEFENCE, 40, EnumAction.BOW, false);
+	public CureEffects(int id){
+		super(id, Tier.APPRENTICE, 25, Element.HEALING, "cure_effects", SpellType.DEFENCE, 40, EnumAction.BOW, false);
 	}
 
 	@Override

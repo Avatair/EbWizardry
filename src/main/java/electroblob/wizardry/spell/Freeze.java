@@ -30,8 +30,8 @@ import net.minecraft.world.World;
 
 public class Freeze extends Spell {
 
-	public Freeze(){
-		super(Tier.BASIC, 5, Element.ICE, "freeze", SpellType.ATTACK, 10, EnumAction.NONE, false);
+	public Freeze(int id){
+		super(id, Tier.BASIC, 5, Element.ICE, "freeze", SpellType.ATTACK, 10, EnumAction.NONE, false);
 	}
 
 	@Override

@@ -27,8 +27,8 @@ import net.minecraft.world.World;
 
 public class ChainLightning extends Spell {
 
-	public ChainLightning(){
-		super(Tier.ADVANCED, 25, Element.LIGHTNING, "chain_lightning", SpellType.ATTACK, 50, EnumAction.NONE, false);
+	public ChainLightning(int id){
+		super(id, Tier.ADVANCED, 25, Element.LIGHTNING, "chain_lightning", SpellType.ATTACK, 50, EnumAction.NONE, false);
 	}
 
 	@Override

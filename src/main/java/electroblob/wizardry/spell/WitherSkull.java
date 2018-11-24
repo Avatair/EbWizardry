@@ -17,8 +17,8 @@ import net.minecraft.world.World;
 
 public class WitherSkull extends Spell {
 
-	public WitherSkull(){
-		super(Tier.ADVANCED, 20, Element.NECROMANCY, "wither_skull", SpellType.ATTACK, 30, EnumAction.NONE, false);
+	public WitherSkull(int id){
+		super(id, Tier.ADVANCED, 20, Element.NECROMANCY, "wither_skull", SpellType.ATTACK, 30, EnumAction.NONE, false);
 	}
 
 	@Override

@@ -28,8 +28,8 @@ public class LightningBolt extends Spell {
 	/** The NBT key used to store the UUID of the player that summoned the lightning bolt. Used for achievements. */
 	public static final String NBT_KEY = "summoningPlayer";
 
-	public LightningBolt(){
-		super(Tier.ADVANCED, 40, Element.LIGHTNING, "lightning_bolt", SpellType.ATTACK, 80, EnumAction.NONE, false);
+	public LightningBolt(int id){
+		super(id, Tier.ADVANCED, 40, Element.LIGHTNING, "lightning_bolt", SpellType.ATTACK, 80, EnumAction.NONE, false);
 	}
 
 	@Override

@@ -113,6 +113,7 @@ public abstract class Spell extends IForgeRegistryEntry.Impl<Spell> implements C
 	 * added by other mods should use
 	 * {@link Spell#Spell(Tier, int, Element, String, SpellType, int, EnumAction, boolean, String)}.
 	 * 
+	 * @param id The id of the spell. Is used as item meta for books and scrolls.
 	 * @param tier The tier this spell belongs to.
 	 * @param cost The amount of mana used to cast the spell. If this is a continuous spell, it represents mana cost per
 	 *        second and should be a multiple of 5.
@@ -124,15 +125,16 @@ public abstract class Spell extends IForgeRegistryEntry.Impl<Spell> implements C
 	 * @param isContinuous Whether this spell is continuous, meaning you cast it for a length of time by holding the
 	 *        right mouse button.
 	 */
-	public Spell(Tier tier, int cost, Element element, String name, SpellType type, int cooldown, EnumAction action,
+	public Spell(int id, Tier tier, int cost, Element element, String name, SpellType type, int cooldown, EnumAction action,
 			boolean isContinuous){
-		this(tier, cost, element, name, type, cooldown, action, isContinuous, Wizardry.MODID);
+		this(id, tier, cost, element, name, type, cooldown, action, isContinuous, Wizardry.MODID);
 	}
 
 	/**
 	 * This constructor should be called from any subclasses, either feeding in the constants directly or through their
 	 * own constructor from wherever the spell is registered.
 	 * 
+	 * @param id The id of the spell. Is used as item meta for books and scrolls.
 	 * @param tier The tier this spell belongs to.
 	 * @param cost The amount of mana used to cast the spell. If this is a continuous spell, it represents mana cost per
 	 *        second and should be a multiple of 5.
@@ -146,7 +148,7 @@ public abstract class Spell extends IForgeRegistryEntry.Impl<Spell> implements C
 	 * @param modID The mod id of the mod that added this spell. This allows wizardry to use the correct file path for
 	 *        the spell icon, and also more generally to distinguish between original and addon spells.
 	 */
-	public Spell(Tier tier, int cost, Element element, String name, SpellType type, int cooldown, EnumAction action,
+	public Spell(int id, Tier tier, int cost, Element element, String name, SpellType type, int cooldown, EnumAction action,
 			boolean isContinuous, String modID){
 		this.tier = tier;
 		this.cost = cost;

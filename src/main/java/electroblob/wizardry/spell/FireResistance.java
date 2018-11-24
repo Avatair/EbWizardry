@@ -20,8 +20,8 @@ import net.minecraft.world.World;
 
 public class FireResistance extends Spell {
 
-	public FireResistance(){
-		super(Tier.ADVANCED, 20, Element.FIRE, "fire_resistance", SpellType.DEFENCE, 80, EnumAction.BOW, false);
+	public FireResistance(int id){
+		super(id, Tier.ADVANCED, 20, Element.FIRE, "fire_resistance", SpellType.DEFENCE, 80, EnumAction.BOW, false);
 	}
 
 	@Override
