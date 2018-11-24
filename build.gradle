@@ -63,7 +63,8 @@ dependencies {
     // for more info...
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
-	deobfCompile ("com.teamwizardry.librarianlib:librarianlib-particle-system-1.12.2:4.16-SNAPSHOT:deobf") {changing = true}
+    deobfCompile "net.shadowfacts:Forgelin:1.8.0"
+	deobfCompile "com.teamwizardry.librarianlib:librarianlib-1.12.2:4.17:fat"
 	deobfCompile "com.teamwizardry:wizardry:0.9.7"
 }
 
