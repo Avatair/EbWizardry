@@ -15,8 +15,8 @@ import net.minecraft.world.World;
 public class Leap extends Spell {
 	// SHAPE: SELF
 
-	public Leap(){
-		super(Tier.BASIC, 10, Element.EARTH, "leap", SpellType.UTILITY, 20, EnumAction.NONE, false);
+	public Leap(int id){
+		super(id, Tier.BASIC, 10, Element.EARTH, "leap", SpellType.UTILITY, 20, EnumAction.NONE, false);
 	}
 
 	@Override

@@ -22,8 +22,8 @@ import net.minecraft.world.World;
 public class WallOfFrost extends Spell {
 	// SHAPE: FAR TOUCH RAY	
 	
-	public WallOfFrost(){
-		super(Tier.MASTER, 15, Element.ICE, "wall_of_frost", SpellType.UTILITY, 0, EnumAction.NONE, true);
+	public WallOfFrost(int id){
+		super(id, Tier.MASTER, 15, Element.ICE, "wall_of_frost", SpellType.UTILITY, 0, EnumAction.NONE, true);
 	}
 
 	@Override

@@ -16,8 +16,8 @@ import net.minecraft.world.World;
 public class Glide extends Spell {
 	// SHAPE: SELF
 
-	public Glide(){
-		super(Tier.ADVANCED, 5, Element.EARTH, "glide", SpellType.UTILITY, 0, EnumAction.NONE, true);
+	public Glide(int id){
+		super(id, Tier.ADVANCED, 5, Element.EARTH, "glide", SpellType.UTILITY, 0, EnumAction.NONE, true);
 	}
 
 	@Override

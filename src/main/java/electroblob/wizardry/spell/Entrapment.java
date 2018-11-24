@@ -25,8 +25,8 @@ import net.minecraft.world.World;
 public class Entrapment extends Spell {
 	// SHAPE: FAR TOUCH
 
-	public Entrapment(){
-		super(Tier.ADVANCED, 35, Element.NECROMANCY, "entrapment", SpellType.ATTACK, 75, EnumAction.NONE, false);
+	public Entrapment(int id){
+		super(id, Tier.ADVANCED, 35, Element.NECROMANCY, "entrapment", SpellType.ATTACK, 75, EnumAction.NONE, false);
 	}
 
 	@Override

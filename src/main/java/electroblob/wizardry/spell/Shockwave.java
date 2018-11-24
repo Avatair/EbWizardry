@@ -27,8 +27,8 @@ import net.minecraft.world.World;
 public class Shockwave extends Spell {
 	// SHAPE: AROUND SELF AOE
 
-	public Shockwave(){
-		super(Tier.MASTER, 65, Element.SORCERY, "shockwave", SpellType.ATTACK, 150, EnumAction.BOW, false);
+	public Shockwave(int id){
+		super(id, Tier.MASTER, 65, Element.SORCERY, "shockwave", SpellType.ATTACK, 150, EnumAction.BOW, false);
 	}
 
 	@Override

@@ -24,8 +24,8 @@ import net.minecraft.world.World;
 public class ForestsCurse extends Spell {
 	// SHAPE: FAR TOUCH RAY
 
-	public ForestsCurse(){
-		super(Tier.MASTER, 75, Element.EARTH, "forests_curse", SpellType.ATTACK, 200, EnumAction.BOW, false);
+	public ForestsCurse(int id){
+		super(id, Tier.MASTER, 75, Element.EARTH, "forests_curse", SpellType.ATTACK, 200, EnumAction.BOW, false);
 	}
 
 	@Override

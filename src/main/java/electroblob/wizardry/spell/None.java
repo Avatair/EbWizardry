@@ -16,8 +16,8 @@ import net.minecraft.world.World;
  */
 public class None extends Spell {
 
-	public None(){
-		super(Tier.BASIC, 0, Element.MAGIC, "none", SpellType.UTILITY, 0, EnumAction.NONE, false);
+	public None(int id){
+		super(id, Tier.BASIC, 0, Element.MAGIC, "none", SpellType.UTILITY, 0, EnumAction.NONE, false);
 	}
 
 	@Override

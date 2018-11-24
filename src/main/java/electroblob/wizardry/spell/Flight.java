@@ -16,8 +16,8 @@ import net.minecraft.world.World;
 public class Flight extends Spell {
 	// SHAPE: SELF
 
-	public Flight(){
-		super(Tier.MASTER, 10, Element.EARTH, "flight", SpellType.UTILITY, 0, EnumAction.NONE, true);
+	public Flight(int id){
+		super(id, Tier.MASTER, 10, Element.EARTH, "flight", SpellType.UTILITY, 0, EnumAction.NONE, true);
 	}
 
 	@Override

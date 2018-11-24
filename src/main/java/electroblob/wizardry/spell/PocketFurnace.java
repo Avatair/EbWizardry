@@ -17,8 +17,8 @@ import net.minecraft.world.World;
 public class PocketFurnace extends Spell {
 	// SHAPE: SELF
 
-	public PocketFurnace(){
-		super(Tier.APPRENTICE, 30, Element.FIRE, "pocket_furnace", SpellType.UTILITY, 40, EnumAction.BOW, false);
+	public PocketFurnace(int id){
+		super(id, Tier.APPRENTICE, 30, Element.FIRE, "pocket_furnace", SpellType.UTILITY, 40, EnumAction.BOW, false);
 	}
 
 	@Override

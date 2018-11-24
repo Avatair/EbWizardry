@@ -18,8 +18,8 @@ import net.minecraft.world.World;
 public class Fireball extends Spell {
 	// SHAPE: PROJECTILE
 
-	public Fireball(){
-		super(Tier.APPRENTICE, 10, Element.FIRE, "fireball", SpellType.ATTACK, 15, EnumAction.NONE, false);
+	public Fireball(int id){
+		super(id, Tier.APPRENTICE, 10, Element.FIRE, "fireball", SpellType.ATTACK, 15, EnumAction.NONE, false);
 		// Does 2.5 hearts of damage and 5 seconds of fire, for reference.
 	}
 

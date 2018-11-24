@@ -19,8 +19,8 @@ import net.minecraft.world.World;
 public class SpiderSwarm extends Spell {
 	// SHAPE: SUMMON AROUND SELF
 
-	public SpiderSwarm(){
-		super(Tier.ADVANCED, 45, Element.EARTH, "spider_swarm", SpellType.MINION, 200, EnumAction.BOW, false);
+	public SpiderSwarm(int id){
+		super(id, Tier.ADVANCED, 45, Element.EARTH, "spider_swarm", SpellType.MINION, 200, EnumAction.BOW, false);
 	}
 
 	@Override

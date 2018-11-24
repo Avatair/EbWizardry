@@ -18,8 +18,8 @@ import net.minecraft.world.World;
 public class LightningArrow extends Spell {
 	// SHAPE: PROJECTILE
 
-	public LightningArrow(){
-		super(Tier.APPRENTICE, 15, Element.LIGHTNING, "lightning_arrow", SpellType.ATTACK, 20, EnumAction.NONE, false);
+	public LightningArrow(int id){
+		super(id, Tier.APPRENTICE, 15, Element.LIGHTNING, "lightning_arrow", SpellType.ATTACK, 20, EnumAction.NONE, false);
 	}
 
 	@Override

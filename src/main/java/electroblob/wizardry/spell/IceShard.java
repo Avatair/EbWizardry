@@ -18,8 +18,8 @@ import net.minecraft.world.World;
 public class IceShard extends Spell {
 	// SHAPE: PROJECTILE
 
-	public IceShard(){
-		super(Tier.APPRENTICE, 10, Element.ICE, "ice_shard", SpellType.ATTACK, 10, EnumAction.NONE, false);
+	public IceShard(int id){
+		super(id, Tier.APPRENTICE, 10, Element.ICE, "ice_shard", SpellType.ATTACK, 10, EnumAction.NONE, false);
 	}
 
 	@Override

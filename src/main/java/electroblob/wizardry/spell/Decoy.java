@@ -17,8 +17,8 @@ import net.minecraft.world.World;
 public class Decoy extends Spell {
 	// SHAPE: SUMMON SELF
 
-	public Decoy(){
-		super(Tier.ADVANCED, 40, Element.SORCERY, "decoy", SpellType.UTILITY, 200, EnumAction.BOW, false);
+	public Decoy(int id){
+		super(id, Tier.ADVANCED, 40, Element.SORCERY, "decoy", SpellType.UTILITY, 200, EnumAction.BOW, false);
 	}
 
 	@Override

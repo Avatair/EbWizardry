@@ -29,8 +29,8 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 public class ArcaneJammer extends Spell {
 	// SHAPE: FAR TOUCH
 
-	public ArcaneJammer(){
-		super(Tier.ADVANCED, 30, Element.HEALING, "arcane_jammer", SpellType.ATTACK, 50, EnumAction.NONE, false);
+	public ArcaneJammer(int id){
+		super(id, Tier.ADVANCED, 30, Element.HEALING, "arcane_jammer", SpellType.ATTACK, 50, EnumAction.NONE, false);
 	}
 
 	@Override

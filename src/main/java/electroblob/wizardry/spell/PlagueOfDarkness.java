@@ -28,8 +28,8 @@ public class PlagueOfDarkness extends Spell {
 	
 	// SHAPE: AROUND SELF
 
-	public PlagueOfDarkness(){
-		super(Tier.MASTER, 75, Element.NECROMANCY, "plague_of_darkness", SpellType.ATTACK, 200, EnumAction.BOW, false);
+	public PlagueOfDarkness(int id){
+		super(id, Tier.MASTER, 75, Element.NECROMANCY, "plague_of_darkness", SpellType.ATTACK, 200, EnumAction.BOW, false);
 	}
 
 	@Override

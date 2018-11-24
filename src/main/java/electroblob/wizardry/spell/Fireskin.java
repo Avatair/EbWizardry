@@ -19,8 +19,8 @@ import net.minecraft.world.World;
 public class Fireskin extends Spell {
 	// SHAPE: SELF
 	
-	public Fireskin(){
-		super(Tier.ADVANCED, 40, Element.FIRE, "fireskin", SpellType.DEFENCE, 250, EnumAction.BOW, false);
+	public Fireskin(int id){
+		super(id, Tier.ADVANCED, 40, Element.FIRE, "fireskin", SpellType.DEFENCE, 250, EnumAction.BOW, false);
 	}
 
 	@Override

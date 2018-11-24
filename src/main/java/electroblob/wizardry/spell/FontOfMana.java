@@ -21,8 +21,8 @@ import net.minecraft.world.World;
 public class FontOfMana extends Spell {
 	// SHAPE: SELF
 
-	public FontOfMana(){
-		super(Tier.MASTER, 100, Element.HEALING, "font_of_mana", SpellType.UTILITY, 250, EnumAction.BOW, false);
+	public FontOfMana(int id){
+		super(id, Tier.MASTER, 100, Element.HEALING, "font_of_mana", SpellType.UTILITY, 250, EnumAction.BOW, false);
 	}
 
 	@Override

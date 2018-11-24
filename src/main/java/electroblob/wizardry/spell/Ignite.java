@@ -24,8 +24,8 @@ import net.minecraft.world.World;
 public class Ignite extends Spell {
 	// SHAPE: FAR TOUCH
 
-	public Ignite(){
-		super(Tier.BASIC, 5, Element.FIRE, "ignite", SpellType.ATTACK, 10, EnumAction.NONE, false);
+	public Ignite(int id){
+		super(id, Tier.BASIC, 5, Element.FIRE, "ignite", SpellType.ATTACK, 10, EnumAction.NONE, false);
 	}
 
 	@Override

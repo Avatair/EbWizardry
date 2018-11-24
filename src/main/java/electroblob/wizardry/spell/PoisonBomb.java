@@ -18,8 +18,8 @@ import net.minecraft.world.World;
 public class PoisonBomb extends Spell {
 	// SHAPE: PROJECTILE
 
-	public PoisonBomb(){
-		super(Tier.APPRENTICE, 15, Element.EARTH, "poison_bomb", SpellType.ATTACK, 25, EnumAction.NONE, false);
+	public PoisonBomb(int id){
+		super(id, Tier.APPRENTICE, 15, Element.EARTH, "poison_bomb", SpellType.ATTACK, 25, EnumAction.NONE, false);
 	}
 
 	@Override

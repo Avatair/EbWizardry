@@ -44,8 +44,8 @@ public class MindControl extends Spell {
 	 */
 	public static final String NBT_KEY = "controllingEntity";
 
-	public MindControl(){
-		super(Tier.ADVANCED, 40, Element.NECROMANCY, "mind_control", SpellType.ATTACK, 150, EnumAction.NONE, false);
+	public MindControl(int id){
+		super(id, Tier.ADVANCED, 40, Element.NECROMANCY, "mind_control", SpellType.ATTACK, 150, EnumAction.NONE, false);
 	}
 
 	@Override

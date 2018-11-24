@@ -18,8 +18,8 @@ import net.minecraft.world.World;
 public class FireSigil extends Spell {
 	// SHAPE: SUMMON AROUND SELF
 
-	public FireSigil(){
-		super(Tier.APPRENTICE, 10, Element.FIRE, "fire_sigil", SpellType.ATTACK, 20, EnumAction.NONE, false);
+	public FireSigil(int id){
+		super(id, Tier.APPRENTICE, 10, Element.FIRE, "fire_sigil", SpellType.ATTACK, 20, EnumAction.NONE, false);
 	}
 
 	@Override

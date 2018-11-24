@@ -16,8 +16,8 @@ import net.minecraft.world.World;
 public class ReplenishHunger extends Spell {
 	// SHAPE: SELF
 
-	public ReplenishHunger(){
-		super(Tier.APPRENTICE, 10, Element.HEALING, "replenish_hunger", SpellType.UTILITY, 30, EnumAction.BOW, false);
+	public ReplenishHunger(int id){
+		super(id, Tier.APPRENTICE, 10, Element.HEALING, "replenish_hunger", SpellType.UTILITY, 30, EnumAction.BOW, false);
 	}
 
 	@Override

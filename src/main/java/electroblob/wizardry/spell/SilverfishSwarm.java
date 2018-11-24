@@ -17,8 +17,8 @@ import net.minecraft.world.World;
 public class SilverfishSwarm extends Spell {
 	// SHAPE: SUMMON AROUND SELF
 
-	public SilverfishSwarm(){
-		super(Tier.MASTER, 80, Element.EARTH, "silverfish_swarm", SpellType.MINION, 300, EnumAction.BOW, false);
+	public SilverfishSwarm(int id){
+		super(id, Tier.MASTER, 80, Element.EARTH, "silverfish_swarm", SpellType.MINION, 300, EnumAction.BOW, false);
 	}
 
 	@Override

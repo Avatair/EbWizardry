@@ -18,8 +18,8 @@ import net.minecraft.world.World;
 public class Forcefield extends Spell {
 	// SHAPE: AROUND SELF AOE
 
-	public Forcefield(){
-		super(Tier.ADVANCED, 45, Element.HEALING, "forcefield", SpellType.DEFENCE, 200, EnumAction.BOW, false);
+	public Forcefield(int id){
+		super(id, Tier.ADVANCED, 45, Element.HEALING, "forcefield", SpellType.DEFENCE, 200, EnumAction.BOW, false);
 	}
 
 	@Override

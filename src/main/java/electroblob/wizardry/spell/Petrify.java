@@ -30,8 +30,8 @@ public class Petrify extends Spell {
 	 */
 	public static final String NBT_KEY = "petrified";
 
-	public Petrify(){
-		super(Tier.ADVANCED, 40, Element.SORCERY, "petrify", SpellType.ATTACK, 100, EnumAction.NONE, false);
+	public Petrify(int id){
+		super(id, Tier.ADVANCED, 40, Element.SORCERY, "petrify", SpellType.ATTACK, 100, EnumAction.NONE, false);
 	}
 
 	@Override

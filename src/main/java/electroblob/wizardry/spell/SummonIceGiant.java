@@ -19,8 +19,8 @@ import net.minecraft.world.World;
 public class SummonIceGiant extends Spell {
 	// SHAPE: SUMMON AROUND SELF
 
-	public SummonIceGiant(){
-		super(Tier.MASTER, 100, Element.ICE, "summon_ice_giant", SpellType.MINION, 400, EnumAction.BOW, false);
+	public SummonIceGiant(int id){
+		super(id, Tier.MASTER, 100, Element.ICE, "summon_ice_giant", SpellType.MINION, 400, EnumAction.BOW, false);
 	}
 
 	@Override

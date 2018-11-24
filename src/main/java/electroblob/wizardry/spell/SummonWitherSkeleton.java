@@ -22,8 +22,8 @@ import net.minecraft.world.World;
 public class SummonWitherSkeleton extends Spell {
 	// SHAPE: SUMMON AROUND SELF
 
-	public SummonWitherSkeleton(){
-		super(Tier.ADVANCED, 35, Element.NECROMANCY, "summon_wither_skeleton", SpellType.MINION, 150, EnumAction.BOW,
+	public SummonWitherSkeleton(int id){
+		super(id, Tier.ADVANCED, 35, Element.NECROMANCY, "summon_wither_skeleton", SpellType.MINION, 150, EnumAction.BOW,
 				false);
 	}
 

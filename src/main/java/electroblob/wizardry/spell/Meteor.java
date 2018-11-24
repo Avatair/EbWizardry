@@ -18,8 +18,8 @@ import net.minecraft.world.World;
 public class Meteor extends Spell {
 	// SHAPE: SUMMON FAR TOUCH
 
-	public Meteor(){
-		super(Tier.MASTER, 100, Element.FIRE, "meteor", SpellType.ATTACK, 200, EnumAction.NONE, false);
+	public Meteor(int id){
+		super(id, Tier.MASTER, 100, Element.FIRE, "meteor", SpellType.ATTACK, 200, EnumAction.NONE, false);
 	}
 
 	@Override

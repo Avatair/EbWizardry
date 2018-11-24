@@ -17,8 +17,8 @@ import net.minecraft.world.World;
 public class SummonPhoenix extends Spell {
 	// SHAPE: SUMMON AROUND SELF
 
-	public SummonPhoenix(){
-		super(Tier.MASTER, 150, Element.FIRE, "summon_phoenix", SpellType.MINION, 400, EnumAction.BOW, false);
+	public SummonPhoenix(int id){
+		super(id, Tier.MASTER, 150, Element.FIRE, "summon_phoenix", SpellType.MINION, 400, EnumAction.BOW, false);
 	}
 
 	@Override

@@ -21,8 +21,8 @@ import net.minecraft.world.World;
 public class Whirlwind extends Spell {
 	// SHAPE: FAR TOUCH
 
-	public Whirlwind(){
-		super(Tier.APPRENTICE, 10, Element.EARTH, "whirlwind", SpellType.DEFENCE, 15, EnumAction.NONE, false);
+	public Whirlwind(int id){
+		super(id, Tier.APPRENTICE, 10, Element.EARTH, "whirlwind", SpellType.DEFENCE, 15, EnumAction.NONE, false);
 	}
 
 	@Override

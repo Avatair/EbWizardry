@@ -18,8 +18,8 @@ import net.minecraft.world.World;
 public class BlackHole extends Spell {
 	// SHAPE: FAR TOUCH
 
-	public BlackHole(){
-		super(Tier.MASTER, 150, Element.SORCERY, "black_hole", SpellType.ATTACK, 400, EnumAction.NONE, false);
+	public BlackHole(int id){
+		super(id, Tier.MASTER, 150, Element.SORCERY, "black_hole", SpellType.ATTACK, 400, EnumAction.NONE, false);
 	}
 
 	@Override

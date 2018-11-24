@@ -36,8 +36,8 @@ public class Intimidate extends Spell {
 	/** The NBT tag name for storing the feared entity's UUID in the target's tag compound. */
 	public static final String NBT_KEY = "fearedEntity";
 
-	public Intimidate(){
-		super(Tier.APPRENTICE, 20, Element.NECROMANCY, "intimidate", SpellType.ATTACK, 100, EnumAction.BOW, false);
+	public Intimidate(int id){
+		super(id, Tier.APPRENTICE, 20, Element.NECROMANCY, "intimidate", SpellType.ATTACK, 100, EnumAction.BOW, false);
 	}
 
 	@Override

@@ -25,8 +25,8 @@ public class LightningPulse extends Spell {
 	
 	// SHAPE: AROUND SELF
 
-	public LightningPulse(){
-		super(Tier.ADVANCED, 25, Element.LIGHTNING, "lightning_pulse", SpellType.ATTACK, 75, EnumAction.NONE, false);
+	public LightningPulse(int id){
+		super(id, Tier.ADVANCED, 25, Element.LIGHTNING, "lightning_pulse", SpellType.ATTACK, 75, EnumAction.NONE, false);
 	}
 
 	@Override

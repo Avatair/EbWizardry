@@ -19,8 +19,8 @@ import net.minecraft.world.World;
 public class FrostAxe extends Spell {
 	// SHAPE: SUMMON SELF
 
-	public FrostAxe(){
-		super(Tier.ADVANCED, 45, Element.ICE, "frost_axe", SpellType.UTILITY, 50, EnumAction.BOW, false);
+	public FrostAxe(int id){
+		super(id, Tier.ADVANCED, 45, Element.ICE, "frost_axe", SpellType.UTILITY, 50, EnumAction.BOW, false);
 	}
 
 	@Override

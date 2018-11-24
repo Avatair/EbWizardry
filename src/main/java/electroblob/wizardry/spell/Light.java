@@ -19,8 +19,8 @@ import net.minecraft.world.World;
 public class Light extends Spell {
 	// SHAPE: TOUCH
 
-	public Light(){
-		super(Tier.BASIC, 5, Element.SORCERY, "light", SpellType.UTILITY, 15, EnumAction.NONE, false);
+	public Light(int id){
+		super(id, Tier.BASIC, 5, Element.SORCERY, "light", SpellType.UTILITY, 15, EnumAction.NONE, false);
 	}
 
 	@Override

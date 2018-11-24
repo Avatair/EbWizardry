@@ -27,8 +27,8 @@ public class IceStatue extends Spell {
 
 	private static final int baseDuration = 400;
 
-	public IceStatue(){
-		super(Tier.APPRENTICE, 15, Element.ICE, "ice_statue", SpellType.ATTACK, 40, EnumAction.NONE, false);
+	public IceStatue(int id){
+		super(id, Tier.APPRENTICE, 15, Element.ICE, "ice_statue", SpellType.ATTACK, 40, EnumAction.NONE, false);
 	}
 
 	@Override

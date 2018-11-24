@@ -24,8 +24,8 @@ import net.minecraft.world.World;
 public class ImbueWeapon extends Spell {
 	// SHAPE: SELF
 
-	public ImbueWeapon(){
-		super(Tier.APPRENTICE, 20, Element.SORCERY, "imbue_weapon", SpellType.UTILITY, 50, EnumAction.BOW, false);
+	public ImbueWeapon(int id){
+		super(id, Tier.APPRENTICE, 20, Element.SORCERY, "imbue_weapon", SpellType.UTILITY, 50, EnumAction.BOW, false);
 	}
 
 	@Override

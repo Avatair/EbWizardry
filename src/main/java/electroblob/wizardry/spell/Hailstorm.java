@@ -17,8 +17,8 @@ import net.minecraft.world.World;
 public class Hailstorm extends Spell {
 	// SHAPE: SUMMON FAR TOUCH
 
-	public Hailstorm(){
-		super(Tier.MASTER, 75, Element.ICE, "hailstorm", SpellType.ATTACK, 300, EnumAction.NONE, false);
+	public Hailstorm(int id){
+		super(id, Tier.MASTER, 75, Element.ICE, "hailstorm", SpellType.ATTACK, 300, EnumAction.NONE, false);
 	}
 
 	@Override

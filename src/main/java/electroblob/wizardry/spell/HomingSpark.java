@@ -17,8 +17,8 @@ import net.minecraft.world.World;
 public class HomingSpark extends Spell {
 	// SHAPE: PROJECTILE
 
-	public HomingSpark(){
-		super(Tier.APPRENTICE, 10, Element.LIGHTNING, "homing_spark", SpellType.ATTACK, 20, EnumAction.NONE, false);
+	public HomingSpark(int id){
+		super(id, Tier.APPRENTICE, 10, Element.LIGHTNING, "homing_spark", SpellType.ATTACK, 20, EnumAction.NONE, false);
 	}
 
 	@Override

@@ -15,8 +15,8 @@ import net.minecraft.world.World;
 public class VanishingBox extends Spell {
 	// SHAPE: SELF
 
-	public VanishingBox(){
-		super(Tier.ADVANCED, 45, Element.SORCERY, "vanishing_box", SpellType.UTILITY, 70, EnumAction.BOW, false);
+	public VanishingBox(int id){
+		super(id, Tier.ADVANCED, 45, Element.SORCERY, "vanishing_box", SpellType.UTILITY, 70, EnumAction.BOW, false);
 	}
 
 	@Override

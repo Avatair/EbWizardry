@@ -28,8 +28,8 @@ import net.minecraft.world.World;
 public class Arc extends Spell {
 	// SHAPE: FAR TOUCH RAY
 
-	public Arc(){
-		super(Tier.BASIC, 5, Element.LIGHTNING, "arc", SpellType.ATTACK, 15, EnumAction.NONE, false);
+	public Arc(int id){
+		super(id, Tier.BASIC, 5, Element.LIGHTNING, "arc", SpellType.ATTACK, 15, EnumAction.NONE, false);
 	}
 
 	@Override

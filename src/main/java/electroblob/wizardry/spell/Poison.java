@@ -26,8 +26,8 @@ import net.minecraft.world.World;
 public class Poison extends Spell {
 	// SHAPE: FAR TOUCH RAY
 
-	public Poison(){
-		super(Tier.APPRENTICE, 10, Element.EARTH, "poison", SpellType.ATTACK, 20, EnumAction.NONE, false);
+	public Poison(int id){
+		super(id, Tier.APPRENTICE, 10, Element.EARTH, "poison", SpellType.ATTACK, 20, EnumAction.NONE, false);
 	}
 
 	@Override

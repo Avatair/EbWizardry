@@ -24,8 +24,8 @@ public class LifeDrain extends Spell {
 	
 	// SHAPE: FAR TOUCH RAY
 
-	public LifeDrain(){
-		super(Tier.APPRENTICE, 10, Element.NECROMANCY, "life_drain", SpellType.ATTACK, 0, EnumAction.NONE, true);
+	public LifeDrain(int id){
+		super(id, Tier.APPRENTICE, 10, Element.NECROMANCY, "life_drain", SpellType.ATTACK, 0, EnumAction.NONE, true);
 	}
 
 	@Override

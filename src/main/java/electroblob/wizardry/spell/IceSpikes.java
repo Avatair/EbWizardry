@@ -22,8 +22,8 @@ import net.minecraft.world.World;
 public class IceSpikes extends Spell {
 	// SHAPE: TOUCH
 
-	public IceSpikes(){
-		super(Tier.ADVANCED, 30, Element.ICE, "ice_spikes", SpellType.ATTACK, 75, EnumAction.NONE, false);
+	public IceSpikes(int id){
+		super(id, Tier.ADVANCED, 30, Element.ICE, "ice_spikes", SpellType.ATTACK, 75, EnumAction.NONE, false);
 	}
 
 	@Override

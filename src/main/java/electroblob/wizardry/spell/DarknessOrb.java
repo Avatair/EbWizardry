@@ -17,8 +17,8 @@ import net.minecraft.world.World;
 public class DarknessOrb extends Spell {
 	// SHAPE: PROJECTILE
 
-	public DarknessOrb(){
-		super(Tier.ADVANCED, 20, Element.NECROMANCY, "darkness_orb", SpellType.ATTACK, 20, EnumAction.NONE, false);
+	public DarknessOrb(int id){
+		super(id, Tier.ADVANCED, 20, Element.NECROMANCY, "darkness_orb", SpellType.ATTACK, 20, EnumAction.NONE, false);
 	}
 
 	@Override
