@@ -1,16 +1,16 @@
 {
-  "sub_module_id": "effect_ebw_darkness_orb",
+  "sub_module_id": "effect_ebw_dart",
   "reference_module_id": "effect_ebw_projectile_wrapper",
   "parameters" : {
-    "ebwspell" : "ebwizardry:darkness_orb"
+    "ebwspell" : "ebwizardry:dart"
   },
   "item": "ebwizardry:scroll",
-  "meta": 69,
+  "meta": 9,
   "icon": "ebwizardry:textures/gui/worktable/icons/effect_unknown.png",
   "mana": {
-    "base": 20
+    "base": 5
   },
   "burnout": {
-    "base": 20
+    "base": 10
   }
 }

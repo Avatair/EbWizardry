@@ -1,11 +1,11 @@
 {
-  "sub_module_id": "effect_ebw_darkness_orb",
+  "sub_module_id": "effect_ebw_ice_lance",
   "reference_module_id": "effect_ebw_projectile_wrapper",
   "parameters" : {
-    "ebwspell" : "ebwizardry:darkness_orb"
+    "ebwspell" : "ebwizardry:ice_lance"
   },
   "item": "ebwizardry:scroll",
-  "meta": 69,
+  "meta": 126,
   "icon": "ebwizardry:textures/gui/worktable/icons/effect_unknown.png",
   "mana": {
     "base": 20

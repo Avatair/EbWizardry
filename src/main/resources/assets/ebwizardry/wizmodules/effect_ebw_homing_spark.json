@@ -1,14 +1,14 @@
 {
-  "sub_module_id": "effect_ebw_darkness_orb",
+  "sub_module_id": "effect_ebw_homing_spark",
   "reference_module_id": "effect_ebw_projectile_wrapper",
   "parameters" : {
-    "ebwspell" : "ebwizardry:darkness_orb"
+    "ebwspell" : "ebwizardry:homing_spark"
   },
   "item": "ebwizardry:scroll",
-  "meta": 69,
+  "meta": 25,
   "icon": "ebwizardry:textures/gui/worktable/icons/effect_unknown.png",
   "mana": {
-    "base": 20
+    "base": 10
   },
   "burnout": {
     "base": 20
