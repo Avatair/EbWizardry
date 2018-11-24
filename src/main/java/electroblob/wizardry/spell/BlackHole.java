@@ -16,7 +16,7 @@ import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.world.World;
 
 public class BlackHole extends Spell {
-	// SHAPE: FAR TOUCH
+	// SHAPE: SUMMON FAR TOUCH
 
 	public BlackHole(int id){
 		super(id, Tier.MASTER, 150, Element.SORCERY, "black_hole", SpellType.ATTACK, 400, EnumAction.NONE, false);
